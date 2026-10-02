@@ -26,11 +26,13 @@ DTA301/
 │   │   ├── SL_UEM_TOTL_ZS.csv         # Tỷ lệ thất nghiệp tổng số (ILO)
 │   │   └── ... (36 tệp CSV thô)
 │   └── processed/                     # Dữ liệu đã làm sạch và các biến phái sinh
-│       ├── asean_panel.csv            # Bảng panel gốc dạng Long (150 dòng x 39 cột)
+│       ├── asean_panel.csv            # Bảng panel gốc dạng Long (150 dòng x 39 cột, giữ nguyên NaN)
 │       ├── asean_panel_wide.csv       # Bảng panel dạng Wide (10 dòng x 542 cột)
 │       ├── asean_panel.dta            # Định dạng Stata 118 có gán nhãn biến (variable labels)
 │       ├── asean_panel_derived.csv    # Bảng panel mở rộng chứa các biến phái sinh (150 dòng x 58 cột)
 │       ├── asean_panel_derived.dta    # Dữ liệu phái sinh cho Stata
+│       ├── asean_panel_clean.csv      # Bảng panel ĐÃ LÀM SẠCH 100% HOÀN CHỈNH SẴN SÀNG CHẠY MODEL (150 dòng x 60 cột)
+│       ├── asean_panel_clean.dta      # Định dạng Stata của bảng làm sạch chuyên sâu
 │       └── data_dictionary.csv        # Bản sao từ điển dữ liệu
 ├── outputs/
 │   ├── figures/                       # Trực quan hóa kiểm toán chất lượng và xu hướng
@@ -39,6 +41,7 @@ DTA301/
 │   │   ├── missing_matrix.png                # Ma trận khuyết thiếu 150 quan sát x Biến
 │   │   └── internet_vs_unemployment_trends.png # Biểu đồ chuỗi thời gian Internet & Thất nghiệp
 │   └── tables/                        # Báo cáo kiểm toán dữ liệu và thống kê mô tả
+│       ├── cleaning_audit_report.csv  # Báo cáo đối chiếu trước và sau khi làm sạch (Before vs After)
 │       ├── missing_by_country.csv     # Thống kê tỷ lệ khuyết thiếu theo quốc gia
 │       ├── missing_by_variable.csv    # Thống kê tỷ lệ khuyết thiếu theo từng biến
 │       ├── missing_by_year.csv        # Thống kê tỷ lệ khuyết thiếu theo năm
@@ -54,8 +57,9 @@ DTA301/
 │   ├── fetcher.py                     # Thu thập API World Bank v2, lưu raw CSV & metadata
 │   ├── cleaner.py                     # Lập dàn bảng panel, merge biến, xuất CSV long/wide và Stata
 │   ├── feature_engineering.py         # Tạo log, trễ L1/L2, sai phân diff, khoảng cách giới, biến giả
+│   ├── clean_for_modeling.py          # Module làm sạch chuyên sâu, nội suy chuỗi thời gian và winsorize
 │   └── quality_reporter.py            # Kiểm toán missing, outliers, complete cases và vẽ biểu đồ
-├── data_dictionary.csv                # Từ điển dữ liệu toàn diện (58 biến)
+├── data_dictionary.csv                # Từ điển dữ liệu toàn diện (60 biến)
 ├── main.py                            # Tệp thực thi toàn bộ pipeline từ đầu đến cuối
 ├── requirements.txt                   # Danh sách thư viện phụ thuộc
 └── README.md                          # Tài liệu hướng dẫn sử dụng chi tiết
@@ -161,11 +165,17 @@ python main.py
 
 ### Các bước mà `main.py` tự động thực hiện:
 1. **Kết nối World Bank API v2:** Gửi truy vấn HTTP có gắn cơ chế retry (exponential backoff) đối với từng chỉ số cho 10 nước ASEAN giai đoạn 2010–2024. Nếu chỉ số gặp lỗi mạng, hệ thống ghi log cảnh báo và tiếp tục chạy mà không gián đoạn.
-2. **Lưu dữ liệu thô:** Lưu 36 file CSV vào `data/raw/` cùng catalog `data/raw/metadata.csv`.
-3. **Làm sạch và gộp bảng Panel:** Ghép 36 chỉ số vào khung bảng chuẩn 150 dòng (10 nước $\times$ 15 năm), giữ nguyên giá trị `NaN` (không tự ý nội suy).
-4. **Xuất các định dạng:** Lưu bảng long (`asean_panel.csv`), bảng wide (`asean_panel_wide.csv`) và bảng Stata (`asean_panel.dta`) kèm nhãn biến đầy đủ.
-5. **Tính toán biến phái sinh:** Tạo log, trễ L1/L2, sai phân, khoảng cách giới và biến giả, xuất ra `asean_panel_derived.csv` và `asean_panel_derived.dta`.
-6. **Tạo Data Dictionary:** Biên soạn từ điển dữ liệu chuẩn hóa gồm 58 biến (`data_dictionary.csv`).
+2. **Lưu dữ liệu thô (Raw Data):** Lưu 36 file CSV vào `data/raw/` cùng catalog `data/raw/metadata.csv`. Dữ liệu thô này được bảo toàn nguyên vẹn 100%.
+3. **Lập bảng Panel chuẩn (Base Panel):** Ghép 36 chỉ số vào khung bảng chuẩn 150 dòng (10 nước $\times$ 15 năm), giữ nguyên giá trị `NaN` (không tự ý nội suy trong bảng lưu trữ gốc). Xuất bảng long (`asean_panel.csv`), bảng wide (`asean_panel_wide.csv`) và bảng Stata (`asean_panel.dta`).
+4. **Tính toán biến phái sinh:** Tạo log, trễ L1/L2, sai phân, khoảng cách giới và biến giả trên dữ liệu gốc, xuất ra `asean_panel_derived.csv` và `asean_panel_derived.dta`.
+5. **Làm sạch dữ liệu chuyên dụng chạy mô hình (Clean Model-Ready Panel):**
+   - Áp dụng nội suy tuyến tính chuỗi thời gian bên trong từng nước (`within-country linear interpolation` và `bfill/ffill`).
+   - Xử lý các chuỗi thiếu toàn bộ của một nước (như dịch vụ ICT Việt Nam, độ mở thương mại Myanmar) bằng trung vị nhóm nước tương đồng.
+   - Xử lý ngoại lai cực lớn bằng kỹ thuật Winsorization 1%-99% (`secure_servers_win`, `trade_openness_win`).
+   - Tính toán đầy đủ trễ L1, L2 và sai phân trên chuỗi liên tục để **không bị mất quan sát do listwise deletion**.
+   - Xuất tệp mô hình hóa hoàn chỉnh 100% không còn NaN: `asean_panel_clean.csv` và `asean_panel_clean.dta`.
+   - Xuất bảng kiểm toán đối chiếu: `outputs/tables/cleaning_audit_report.csv`.
+6. **Tạo Data Dictionary:** Biên soạn từ điển dữ liệu chuẩn hóa gồm 60 biến (`data_dictionary.csv`).
 7. **Kiểm toán chất lượng dữ liệu:**
    - Tính toán tỷ lệ khuyết thiếu theo quốc gia, biến, năm.
    - Vẽ và lưu các biểu đồ nhiệt (Heatmap) vào `outputs/figures/`.

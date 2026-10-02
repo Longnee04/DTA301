@@ -1,0 +1,37 @@
+﻿column_name,wdi_code,variable_group,missing_before,missing_after,clean_completeness_pct,cleaning_method
+internet_users,,,4,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+fixed_broadband,,,5,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+mobile_cellular,,,1,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+secure_servers,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+electricity_access,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+ict_goods_exp,,,2,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+ict_serv_exp,,,27,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước | Nội suy trung vị nhóm nước tương đồng (VNM)
+hightech_exp,,,9,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+unemp_total,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+unemp_total_nat,,,32,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+emp_rate_total,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+labor_force_part,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+unemp_youth,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+youth_neet,,,38,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+unemp_adv_edu,,,51,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+unemp_female,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+unemp_male,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_rate_female,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_rate_male,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+labor_force_part_fe,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_agriculture,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_industry,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_services,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_vulnerable,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_wage_salaried,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_self,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+labor_productivity,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+gdp_pc_ppp,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+gdp_growth,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+trade_openness,,,23,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước | Nội suy trung vị nhóm nước tương đồng (MMR)
+fdi_net_inflows,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+urban_pop_rate,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+tertiary_edu_enr,,,25,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+pop_total,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+pop_working_age,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+inflation_cpi,,,5,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước

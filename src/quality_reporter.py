@@ -93,6 +93,23 @@ class QualityReporter:
                 "is_derived": True,
             })
 
+        # 4. Winsorized model-ready variables
+        winsor_vars = [
+            ("secure_servers_win", "Máy chủ bảo mật (Winsorized 1-99%)", "Phái sinh/Làm sạch", "Máy chủ / 1M dân", "Biến phái sinh", "Đã xử lý ngoại lai cực lớn của Singapore ở phân vị 99%", "Secure servers (Winsorized 1-99%)"),
+            ("trade_openness_win", "Độ mở thương mại (Winsorized 1-99%)", "Phái sinh/Làm sạch", "% GDP", "Biến phái sinh", "Đã xử lý ngoại lai cảng trung chuyển ở phân vị 99%", "Trade openness (Winsorized 1-99%)"),
+        ]
+        for col, desc_vi, wdi, unit, grp, notes, stata_lbl in winsor_vars:
+            records.append({
+                "column_name": col,
+                "vietnamese_description": desc_vi,
+                "wdi_code": wdi,
+                "unit": unit,
+                "variable_group": grp,
+                "notes": notes,
+                "stata_label": stata_lbl,
+                "is_derived": True,
+            })
+
         dict_df = pd.DataFrame(records)
         dict_df.to_csv(DATA_DICTIONARY_PATH, index=False, encoding="utf-8-sig")
         dict_df.to_csv(DATA_DICTIONARY_PROCESSED_PATH, index=False, encoding="utf-8-sig")

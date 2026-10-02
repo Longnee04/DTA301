@@ -57,3 +57,5 @@ lag1_secure_servers,Biến trễ 1 năm (L1) của secure_servers,Phái sinh,The
 lag2_secure_servers,Biến trễ 2 năm (L2) của secure_servers,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 2 năm L2 của biến hạ tầng số secure_servers theo từng nước.,Lag 2 of secure_servers,True
 lag1_electricity_access,Biến trễ 1 năm (L1) của electricity_access,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 1 năm L1 của biến hạ tầng số electricity_access theo từng nước.,Lag 1 of electricity_access,True
 lag2_electricity_access,Biến trễ 2 năm (L2) của electricity_access,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 2 năm L2 của biến hạ tầng số electricity_access theo từng nước.,Lag 2 of electricity_access,True
+secure_servers_win,Máy chủ bảo mật (Winsorized 1-99%),Phái sinh/Làm sạch,Máy chủ / 1M dân,Biến phái sinh,Đã xử lý ngoại lai cực lớn của Singapore ở phân vị 99%,Secure servers (Winsorized 1-99%),True
+trade_openness_win,Độ mở thương mại (Winsorized 1-99%),Phái sinh/Làm sạch,% GDP,Biến phái sinh,Đã xử lý ngoại lai cảng trung chuyển ở phân vị 99%,Trade openness (Winsorized 1-99%),True

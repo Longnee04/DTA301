@@ -13,6 +13,11 @@ import sys
 import time
 from pathlib import Path
 
+from src.clean_for_modeling import (
+    ASEAN_PANEL_CLEAN_DTA_PATH,
+    ASEAN_PANEL_CLEAN_PATH,
+    ModelDataCleaner,
+)
 from src.cleaner import PanelCleaner
 from src.config import (
     ASEAN_PANEL_DERIVED_PATH,
@@ -65,25 +70,35 @@ def run_pipeline():
     logger.info(f"Derived panel assembled with shape {derived_panel.shape}.")
 
     # ----------------------------------------------------
-    # Step 4: Data Dictionary Generation
+    # Step 4: Controlled Cleaning & Imputation for Modeling
     # ----------------------------------------------------
-    logger.info(">>> STEP 4: Compiling Data Dictionary...")
+    logger.info(">>> STEP 4: Creating Clean Model-Ready Panel (Controlled Imputation & Winsorization)...")
+    model_cleaner = ModelDataCleaner()
+    imputed_df, audit_df = model_cleaner.clean_and_impute(base_panel)
+    clean_panel = model_cleaner.engineer_model_features(imputed_df)
+    cleaner_model_outputs = model_cleaner.export_clean_data(clean_panel)
+    logger.info(f"Clean model-ready panel created with shape {clean_panel.shape} (100% complete cases).")
+
+    # ----------------------------------------------------
+    # Step 5: Data Dictionary Generation
+    # ----------------------------------------------------
+    logger.info(">>> STEP 5: Compiling Data Dictionary...")
     reporter = QualityReporter()
     data_dict = reporter.generate_data_dictionary()
     logger.info(f"Data dictionary compiled with {len(data_dict)} documented variables.")
 
     # ----------------------------------------------------
-    # Step 5: Data Quality Reporting & Visualizations
+    # Step 6: Data Quality Reporting & Visualizations
     # ----------------------------------------------------
-    logger.info(">>> STEP 5: Running Data Quality Audit and Generating Heatmaps...")
+    logger.info(">>> STEP 6: Running Data Quality Audit and Generating Heatmaps...")
     missing_results = reporter.analyze_missing_data(base_panel)
     complete_cases = reporter.analyze_complete_cases(base_panel)
     outliers = reporter.detect_outliers(derived_panel)
 
     # ----------------------------------------------------
-    # Step 6: Descriptive Statistics
+    # Step 7: Descriptive Statistics
     # ----------------------------------------------------
-    logger.info(">>> STEP 6: Computing Descriptive Statistics (Overall & Country)...")
+    logger.info(">>> STEP 7: Computing Descriptive Statistics (Overall & Country)...")
     summary_stats = reporter.generate_descriptive_stats(derived_panel)
 
     # ----------------------------------------------------
@@ -97,17 +112,20 @@ def run_pipeline():
     print(" SUMMARY OF CREATED ARTIFACTS AND OUTPUTS")
     print("=" * 80)
     print(f"1. Raw Ingestion Metadata:   {METADATA_PATH}")
-    print(f"2. Long Panel Dataset:       {ASEAN_PANEL_PATH} (Shape: {base_panel.shape})")
+    print(f"2. Long Panel Dataset:       {ASEAN_PANEL_PATH} (Shape: {base_panel.shape}, preserving NaNs)")
     print(f"3. Wide Panel Dataset:       {ASEAN_PANEL_WIDE_PATH}")
     print(f"4. Stata Format Dataset:     {ASEAN_PANEL_DTA_PATH}")
     print(f"5. Derived Feature Panel:    {ASEAN_PANEL_DERIVED_PATH} (Shape: {derived_panel.shape})")
-    print(f"6. Data Dictionary:          {DATA_DICTIONARY_PATH} ({len(data_dict)} variables)")
-    print(f"7. Audit Tables:             {OUTPUTS_TABLES_DIR}")
+    print(f"6. Clean Model-Ready Panel:  {ASEAN_PANEL_CLEAN_PATH} (Shape: {clean_panel.shape}, 100% complete!)")
+    print(f"   - Stata Model Dataset:    {ASEAN_PANEL_CLEAN_DTA_PATH}")
+    print(f"7. Data Dictionary:          {DATA_DICTIONARY_PATH} ({len(data_dict)} variables)")
+    print(f"8. Audit Tables:             {OUTPUTS_TABLES_DIR}")
+    print("   - cleaning_audit_report.csv (Before vs After imputation comparison)")
     print("   - missing_by_country.csv, missing_by_variable.csv, missing_by_year.csv")
     print("   - complete_cases_by_group.csv")
     print("   - outliers_zscore.csv, outliers_jumps.csv")
     print("   - summary_stats_overall.csv, summary_stats_by_country.csv")
-    print(f"8. Audit Figures:            {OUTPUTS_FIGURES_DIR}")
+    print(f"9. Audit Figures:            {OUTPUTS_FIGURES_DIR}")
     print("   - missing_heatmap_country_var.png")
     print("   - missing_heatmap_year_var.png")
     print("   - missing_matrix.png")
