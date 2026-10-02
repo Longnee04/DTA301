@@ -1,0 +1,37 @@
+﻿column_name,wdi_code,variable_group,total_observations,missing_count,missing_rate_pct,available_count
+unemp_adv_edu,SL.UEM.ADVN.ZS,Việc làm (Tổng),150,51,34.0,99
+youth_neet,SL.UEM.NEET.ZS,Việc làm (Tổng),150,38,25.33,112
+unemp_total_nat,SL.UEM.TOTL.NE.ZS,Việc làm (Tổng),150,32,21.33,118
+ict_serv_exp,BX.GSR.CCIS.ZS,Kinh tế số,150,27,18.0,123
+tertiary_edu_enr,SE.TER.ENRR,Biến kiểm soát kinh tế vĩ mô & xã hội,150,25,16.67,125
+trade_openness,NE.TRD.GNFS.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,150,23,15.33,127
+hightech_exp,TX.VAL.TECH.MF.ZS,Kinh tế số,150,9,6.0,141
+fixed_broadband,IT.NET.BBND.P2,Hạ tầng số,150,5,3.33,145
+inflation_cpi,FP.CPI.TOTL.ZG,Biến kiểm soát kinh tế vĩ mô & xã hội,150,5,3.33,145
+internet_users,IT.NET.USER.ZS,Hạ tầng số,150,4,2.67,146
+ict_goods_exp,TX.VAL.ICTG.ZS.UN,Kinh tế số,150,2,1.33,148
+mobile_cellular,IT.CEL.SETS.P2,Hạ tầng số,150,1,0.67,149
+electricity_access,EG.ELC.ACCS.ZS,Hạ tầng số,150,0,0.0,150
+emp_agriculture,SL.AGR.EMPL.ZS,Cơ cấu và chất lượng việc làm,150,0,0.0,150
+emp_industry,SL.IND.EMPL.ZS,Cơ cấu và chất lượng việc làm,150,0,0.0,150
+emp_rate_female,SL.EMP.TOTL.SP.FE.ZS,Việc làm theo giới,150,0,0.0,150
+emp_rate_male,SL.EMP.TOTL.SP.MA.ZS,Việc làm theo giới,150,0,0.0,150
+emp_rate_total,SL.EMP.TOTL.SP.ZS,Việc làm (Tổng),150,0,0.0,150
+emp_self,SL.EMP.SELF.ZS,Cơ cấu và chất lượng việc làm,150,0,0.0,150
+emp_services,SL.SRV.EMPL.ZS,Cơ cấu và chất lượng việc làm,150,0,0.0,150
+emp_vulnerable,SL.EMP.VULN.ZS,Cơ cấu và chất lượng việc làm,150,0,0.0,150
+emp_wage_salaried,SL.EMP.WORK.ZS,Cơ cấu và chất lượng việc làm,150,0,0.0,150
+fdi_net_inflows,BX.KLT.DINV.WD.GD.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,150,0,0.0,150
+gdp_growth,NY.GDP.MKTP.KD.ZG,Biến kiểm soát kinh tế vĩ mô & xã hội,150,0,0.0,150
+gdp_pc_ppp,NY.GDP.PCAP.PP.KD,Biến kiểm soát kinh tế vĩ mô & xã hội,150,0,0.0,150
+labor_force_part,SL.TLF.CACT.ZS,Việc làm (Tổng),150,0,0.0,150
+labor_force_part_fe,SL.TLF.CACT.FE.ZS,Việc làm theo giới,150,0,0.0,150
+labor_productivity,SL.GDP.PCAP.EM.KD,Cơ cấu và chất lượng việc làm,150,0,0.0,150
+pop_total,SP.POP.TOTL,Biến kiểm soát kinh tế vĩ mô & xã hội,150,0,0.0,150
+pop_working_age,SP.POP.1564.TO.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,150,0,0.0,150
+secure_servers,IT.NET.SECR.P6,Hạ tầng số,150,0,0.0,150
+unemp_female,SL.UEM.TOTL.FE.ZS,Việc làm theo giới,150,0,0.0,150
+unemp_male,SL.UEM.TOTL.MA.ZS,Việc làm theo giới,150,0,0.0,150
+unemp_total,SL.UEM.TOTL.ZS,Việc làm (Tổng),150,0,0.0,150
+unemp_youth,SL.UEM.1524.ZS,Việc làm (Tổng),150,0,0.0,150
+urban_pop_rate,SP.URB.TOTL.IN.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,150,0,0.0,150

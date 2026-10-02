@@ -1,0 +1,59 @@
+﻿column_name,vietnamese_description,wdi_code,unit,variable_group,notes,stata_label,is_derived
+country,Tên quốc gia (tiếng Anh),Scaffold,Tên văn bản,Định danh,Tên chính thức từ World Bank,Country Name,False
+iso3,Mã ISO-3 của quốc gia,Scaffold,Mã 3 ký tự,Định danh,Chuẩn ISO 3166-1 alpha-3,ISO-3 Country Code,False
+year,Năm quan sát,Scaffold,Năm (2010-2024),Định danh,Chuỗi thời gian hàng năm,Calendar Year,False
+internet_users,Tỷ lệ dân số dùng Internet,IT.NET.USER.ZS,% dân số,Hạ tầng số,ITU / WDI. Cá nhân sử dụng internet từ bất kỳ địa điểm nào trong 3 tháng qua.,Internet users (% of population),False
+fixed_broadband,Thuê bao băng rộng cố định,IT.NET.BBND.P2,Thuê bao / 100 dân,Hạ tầng số,ITU / WDI. Kết nối băng rộng cố định tốc độ >= 256 kbit/s.,Fixed broadband subs per 100 people,False
+mobile_cellular,Thuê bao điện thoại di động,IT.CEL.SETS.P2,Thuê bao / 100 dân,Hạ tầng số,ITU / WDI. Thuê bao mạng di động trả trước và trả sau.,Mobile cellular subs per 100 people,False
+secure_servers,Máy chủ Internet bảo mật,IT.NET.SECR.P6,Máy chủ / 1 triệu dân,Hạ tầng số,Netcraft / WDI. Máy chủ hỗ trợ mã hóa SSL/TLS cho giao dịch trực tuyến.,Secure Internet servers per 1M people,False
+electricity_access,Tỷ lệ tiếp cận điện lưới,EG.ELC.ACCS.ZS,% dân số,Hạ tầng số,World Bank ESMAP. Tỷ lệ dân cư có nguồn cung cấp điện ổn định.,Access to electricity (% of population),False
+ict_goods_exp,Xuất khẩu hàng hóa ICT,TX.VAL.ICTG.ZS.UN,% tổng xuất khẩu hàng hóa,Kinh tế số,"UNCTAD / WDI. Máy tính, thiết bị truyền thông, linh kiện điện tử.",ICT goods exports (% total goods exports),False
+ict_serv_exp,Xuất khẩu dịch vụ ICT,BX.GSR.CCIS.ZS,% xuất khẩu dịch vụ (BoP),Kinh tế số,"IMF / WDI. Dịch vụ viễn thông, máy tính và xử lý thông tin.",ICT service exports (% service exports),False
+hightech_exp,Xuất khẩu công nghệ cao,TX.VAL.TECH.MF.ZS,% xuất khẩu hàng chế tạo,Kinh tế số,UN Comtrade / WDI. Hàng hóa có cường độ nghiên cứu & phát triển (R&D) cao.,High-tech exports (% manufactured exports),False
+unemp_total,Tỷ lệ thất nghiệp tổng số (ILO),SL.UEM.TOTL.ZS,% lực lượng lao động,Việc làm (Tổng),"Ước tính mô hình của ILO (modeled ILO estimate), chuẩn hóa quốc tế.","Unemployment total (% labor force, ILO)",False
+unemp_total_nat,Tỷ lệ thất nghiệp (ước tính quốc gia),SL.UEM.TOTL.NE.ZS,% lực lượng lao động,Việc làm (Tổng),"Dữ liệu khảo sát quốc gia / Tổng cục Thống kê, dùng để đối chiếu với ILO.","Unemployment total (% labor force, nat)",False
+emp_rate_total,Tỷ lệ việc làm trên dân số (15+),SL.EMP.TOTL.SP.ZS,% dân số 15+,Việc làm (Tổng),Ước tính mô hình của ILO (modeled ILO estimate).,"Employment to pop ratio 15+ (%, ILO)",False
+labor_force_part,Tỷ lệ tham gia lực lượng lao động,SL.TLF.CACT.ZS,% dân số 15+,Việc làm (Tổng),Ước tính mô hình của ILO (modeled ILO estimate).,"Labor force participation rate (%, ILO)",False
+unemp_youth,Tỷ lệ thất nghiệp thanh niên (15-24),SL.UEM.1524.ZS,% lực lượng lao động 15-24,Việc làm (Tổng),Ước tính mô hình của ILO (modeled ILO estimate).,"Youth unemployment 15-24 (%, ILO)",False
+youth_neet,"Tỷ lệ thanh niên NEET (không học, không làm)",SL.UEM.NEET.ZS,% thanh niên,Việc làm (Tổng),ILOSTAT. Đo lường tỷ lệ thanh niên bị tách khỏi giáo dục và việc làm.,"Youth NEET (% youth population, ILO)",False
+unemp_adv_edu,Thất nghiệp ở lao động trình độ cao,SL.UEM.ADVN.ZS,% LLLĐ trình độ cao,Việc làm (Tổng),ILOSTAT / WDI. Tỷ lệ thất nghiệp ở người có trình độ đại học trở lên.,Unemp with advanced edu (% LF adv edu),False
+unemp_female,Tỷ lệ thất nghiệp nữ,SL.UEM.TOTL.FE.ZS,% lực lượng lao động nữ,Việc làm theo giới,Ước tính mô hình của ILO (modeled ILO estimate).,"Unemployment female (% female LF, ILO)",False
+unemp_male,Tỷ lệ thất nghiệp nam,SL.UEM.TOTL.MA.ZS,% lực lượng lao động nam,Việc làm theo giới,Ước tính mô hình của ILO (modeled ILO estimate).,"Unemployment male (% male LF, ILO)",False
+emp_rate_female,Tỷ lệ việc làm trên dân số nữ,SL.EMP.TOTL.SP.FE.ZS,% dân số nữ 15+,Việc làm theo giới,Ước tính mô hình của ILO (modeled ILO estimate).,"Employment to pop ratio female (%, ILO)",False
+emp_rate_male,Tỷ lệ việc làm trên dân số nam,SL.EMP.TOTL.SP.MA.ZS,% dân số nam 15+,Việc làm theo giới,Ước tính mô hình của ILO (modeled ILO estimate).,"Employment to pop ratio male (%, ILO)",False
+labor_force_part_fe,Tỷ lệ tham gia LLLĐ nữ,SL.TLF.CACT.FE.ZS,% dân số nữ 15+,Việc làm theo giới,Ước tính mô hình của ILO (modeled ILO estimate).,"Labor force part rate female (%, ILO)",False
+emp_agriculture,Tỷ lệ việc làm trong nông nghiệp,SL.AGR.EMPL.ZS,% tổng việc làm,Cơ cấu và chất lượng việc làm,Ước tính mô hình của ILO (modeled ILO estimate).,"Employment in agriculture (% total, ILO)",False
+emp_industry,Tỷ lệ việc làm trong công nghiệp,SL.IND.EMPL.ZS,% tổng việc làm,Cơ cấu và chất lượng việc làm,Ước tính mô hình của ILO (modeled ILO estimate).,"Employment in industry (% total, ILO)",False
+emp_services,Tỷ lệ việc làm trong dịch vụ,SL.SRV.EMPL.ZS,% tổng việc làm,Cơ cấu và chất lượng việc làm,Ước tính mô hình của ILO (modeled ILO estimate).,"Employment in services (% total, ILO)",False
+emp_vulnerable,Tỷ lệ việc làm dễ bị tổn thương,SL.EMP.VULN.ZS,% tổng việc làm,Cơ cấu và chất lượng việc làm,Ước tính mô hình của ILO. Tổng lao động tự doanh và lao động gia đình.,"Vulnerable employment (% total, ILO)",False
+emp_wage_salaried,Lao động làm công ăn lương,SL.EMP.WORK.ZS,% tổng việc làm,Cơ cấu và chất lượng việc làm,Ước tính mô hình của ILO. Đại diện cho việc làm khu vực chính thức.,"Wage and salaried workers (% total, ILO)",False
+emp_self,Lao động tự làm việc (tự doanh),SL.EMP.SELF.ZS,% tổng việc làm,Cơ cấu và chất lượng việc làm,"Ước tính mô hình của ILO (tự chủ kinh doanh, hộ gia đình).","Self-employed workers (% total, ILO)",False
+labor_productivity,Năng suất lao động (GDP/lao động),SL.GDP.PCAP.EM.KD,USD PPP 2021,Cơ cấu và chất lượng việc làm,ILOSTAT / WDI. GDP bình quân chia tổng số lao động có việc làm.,GDP per person employed (const 2021 PPP),False
+gdp_pc_ppp,GDP bình quân đầu người (PPP),NY.GDP.PCAP.PP.KD,USD quốc tế 2021,Biến kiểm soát kinh tế vĩ mô & xã hội,World Bank ICP. Đo lường mức thu nhập bình quân theo giá trị sức mua tương đương.,GDP per capita PPP (const 2021 intl $),False
+gdp_growth,Tăng trưởng GDP hàng năm,NY.GDP.MKTP.KD.ZG,% hàng năm,Biến kiểm soát kinh tế vĩ mô & xã hội,World Bank national accounts. Tăng trưởng kinh tế thực tế theo đồng nội tệ.,GDP growth (annual %),False
+trade_openness,Độ mở thương mại,NE.TRD.GNFS.ZS,% GDP,Biến kiểm soát kinh tế vĩ mô & xã hội,World Bank / OECD. (Xuất khẩu + Nhập khẩu) / GDP.,Trade openness (% of GDP),False
+fdi_net_inflows,Dòng vốn FDI ròng,BX.KLT.DINV.WD.GD.ZS,% GDP,Biến kiểm soát kinh tế vĩ mô & xã hội,IMF / World Bank. Vốn đầu tư trực tiếp nước ngoài ròng đổ vào quốc gia.,FDI net inflows (% of GDP),False
+urban_pop_rate,Tỷ lệ dân số đô thị,SP.URB.TOTL.IN.ZS,% tổng dân số,Biến kiểm soát kinh tế vĩ mô & xã hội,UN Population Division / WDI. Tỷ lệ dân cư sinh sống tại khu vực thành thị.,Urban population (% of total pop),False
+tertiary_edu_enr,Tỷ lệ nhập học đại học/cao đẳng,SE.TER.ENRR,% thô,Biến kiểm soát kinh tế vĩ mô & xã hội,UNESCO Institute for Statistics. Phản ánh mức độ tích lũy vốn con người bậc cao.,Gross tertiary school enrollment (%),False
+pop_total,Tổng dân số,SP.POP.TOTL,Người,Biến kiểm soát kinh tế vĩ mô & xã hội,Ước tính dân số giữa năm của Liên Hợp Quốc và World Bank.,"Population, total",False
+pop_working_age,Tỷ lệ dân số 15-64 tuổi,SP.POP.1564.TO.ZS,% tổng dân số,Biến kiểm soát kinh tế vĩ mô & xã hội,UN Population Division / WDI. Tỷ trọng dân số trong độ tuổi lao động vàng.,Population ages 15-64 (% of total pop),False
+inflation_cpi,Tỷ lệ lạm phát (CPI),FP.CPI.TOTL.ZG,% hàng năm,Biến kiểm soát kinh tế vĩ mô & xã hội,IMF International Financial Statistics. Biến động chỉ số giá tiêu dùng bình quân.,"Inflation, consumer prices (annual %)",False
+ln_gdp_pc,Logarit tự nhiên của GDP/người (PPP),Phái sinh,log(USD),Biến phái sinh,ln(gdp_pc_ppp) dùng để tuyến tính hóa quan hệ và đo lường hệ số co giãn.,Log GDP per capita (PPP),True
+ln_pop,Logarit tự nhiên của tổng dân số,Phái sinh,log(người),Biến phái sinh,ln(pop_total) kiểm soát quy mô thị trường.,Log total population,True
+diff_internet_users,Mức thay đổi hàng năm tỷ lệ dùng internet,Phái sinh,Điểm phần trăm,Biến phái sinh,Delta Internet = Internet(t) - Internet(t-1) theo từng nước.,Annual change in internet users (% pt),True
+diff_unemp_total,Mức thay đổi hàng năm tỷ lệ thất nghiệp,Phái sinh,Điểm phần trăm,Biến phái sinh,Delta Thất nghiệp = Unemp(t) - Unemp(t-1) theo từng nước.,Annual change in unemp (% pt),True
+gap_unemp_gender,Khoảng cách giới trong thất nghiệp (Nữ - Nam),Phái sinh,Điểm phần trăm,Biến phái sinh,unemp_female - unemp_male. Giá trị dương nghĩa là nữ thất nghiệp cao hơn nam.,Gender gap in unemp (female - male),True
+gap_emp_gender,Khoảng cách giới trong việc làm (Nữ - Nam),Phái sinh,Điểm phần trăm,Biến phái sinh,emp_rate_female - emp_rate_male.,Gender gap in emp rate (female - male),True
+covid,Biến giả đại dịch COVID-19,Phái sinh,Nhị phân (0/1),Biến phái sinh,Gán 1 cho các năm 2020 và 2021; 0 cho các năm khác.,COVID-19 pandemic dummy (2020-2021),True
+myanmar_post2021,Biến giả biến động chính trị Myanmar,Phái sinh,Nhị phân (0/1),Biến phái sinh,Gán 1 cho Myanmar (MMR) từ năm 2021 trở đi; 0 cho các trường hợp còn lại.,Myanmar crisis dummy (MMR >= 2021),True
+high_income,"Biến giả nhóm thu nhập cao (Singapore, Brunei)",Phái sinh,Nhị phân (0/1),Biến phái sinh,Gán 1 cho Singapore (SGP) và Brunei (BRN); 0 cho 8 nước ASEAN còn lại.,"High income ASEAN dummy (SGP, BRN)",True
+lag1_internet_users,Biến trễ 1 năm (L1) của internet_users,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 1 năm L1 của biến hạ tầng số internet_users theo từng nước.,Lag 1 of internet_users,True
+lag2_internet_users,Biến trễ 2 năm (L2) của internet_users,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 2 năm L2 của biến hạ tầng số internet_users theo từng nước.,Lag 2 of internet_users,True
+lag1_fixed_broadband,Biến trễ 1 năm (L1) của fixed_broadband,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 1 năm L1 của biến hạ tầng số fixed_broadband theo từng nước.,Lag 1 of fixed_broadband,True
+lag2_fixed_broadband,Biến trễ 2 năm (L2) của fixed_broadband,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 2 năm L2 của biến hạ tầng số fixed_broadband theo từng nước.,Lag 2 of fixed_broadband,True
+lag1_mobile_cellular,Biến trễ 1 năm (L1) của mobile_cellular,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 1 năm L1 của biến hạ tầng số mobile_cellular theo từng nước.,Lag 1 of mobile_cellular,True
+lag2_mobile_cellular,Biến trễ 2 năm (L2) của mobile_cellular,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 2 năm L2 của biến hạ tầng số mobile_cellular theo từng nước.,Lag 2 of mobile_cellular,True
+lag1_secure_servers,Biến trễ 1 năm (L1) của secure_servers,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 1 năm L1 của biến hạ tầng số secure_servers theo từng nước.,Lag 1 of secure_servers,True
+lag2_secure_servers,Biến trễ 2 năm (L2) của secure_servers,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 2 năm L2 của biến hạ tầng số secure_servers theo từng nước.,Lag 2 of secure_servers,True
+lag1_electricity_access,Biến trễ 1 năm (L1) của electricity_access,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 1 năm L1 của biến hạ tầng số electricity_access theo từng nước.,Lag 1 of electricity_access,True
+lag2_electricity_access,Biến trễ 2 năm (L2) của electricity_access,Phái sinh,Theo biến gốc,Biến phái sinh,Trễ 2 năm L2 của biến hạ tầng số electricity_access theo từng nước.,Lag 2 of electricity_access,True
