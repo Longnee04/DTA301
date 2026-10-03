@@ -32,6 +32,7 @@ from src.config import (
 from src.feature_engineering import FeatureEngineer
 from src.fetcher import WorldBankFetcher
 from src.quality_reporter import QualityReporter
+from src.export_raw_excel import create_raw_excel, OUT_EXCEL_RAW
 from src.utils import setup_logger
 
 logger = setup_logger("main")
@@ -59,6 +60,14 @@ def run_pipeline():
     base_panel = cleaner.assemble_panel(raw_data_map=raw_data_map)
     cleaner_outputs = cleaner.export_all(base_panel)
     logger.info(f"Base panel assembled with shape {base_panel.shape}.")
+
+    # Export Raw Data to Excel (.xlsx)
+    try:
+        from src.export_raw_excel import create_raw_excel, OUT_EXCEL_RAW, OUT_EXCEL_OUTPUTS
+        create_raw_excel()
+        logger.info(f"Exported Raw Data to Excel: {OUT_EXCEL_RAW}")
+    except Exception as e:
+        logger.warning(f"Failed to export Raw Excel: {e}")
 
     # ----------------------------------------------------
     # Step 3: Feature Engineering (Derived Variables)
@@ -113,6 +122,7 @@ def run_pipeline():
     print("=" * 80)
     print(f"1. Raw Ingestion Metadata:   {METADATA_PATH}")
     print(f"2. Long Panel Dataset:       {ASEAN_PANEL_PATH} (Shape: {base_panel.shape}, preserving NaNs)")
+    print(f"   - Raw Excel Workbook:     {OUT_EXCEL_RAW}")
     print(f"3. Wide Panel Dataset:       {ASEAN_PANEL_WIDE_PATH}")
     print(f"4. Stata Format Dataset:     {ASEAN_PANEL_DTA_PATH}")
     print(f"5. Derived Feature Panel:    {ASEAN_PANEL_DERIVED_PATH} (Shape: {derived_panel.shape})")
