@@ -53,7 +53,7 @@ class QualityReporter:
         scaffold_vars = [
             ("country", "Tên quốc gia (tiếng Anh)", "Scaffold", "Tên văn bản", "Định danh", "Tên chính thức từ World Bank", "Country Name"),
             ("iso3", "Mã ISO-3 của quốc gia", "Scaffold", "Mã 3 ký tự", "Định danh", "Chuẩn ISO 3166-1 alpha-3", "ISO-3 Country Code"),
-            ("year", "Năm quan sát", "Scaffold", "Năm (2010-2024)", "Định danh", "Chuỗi thời gian hàng năm", "Calendar Year"),
+            ("year", "Năm quan sát", "Scaffold", "Năm (2010-2025)", "Định danh", "Chuỗi thời gian hàng năm", "Calendar Year"),
         ]
         for col, desc_vi, wdi, unit, grp, notes, stata_lbl in scaffold_vars:
             records.append({
@@ -201,7 +201,7 @@ class QualityReporter:
             cbar_kws={"label": "Tỷ lệ thiếu (%)"},
             linewidths=0.5,
         )
-        plt.title("Tỷ lệ dữ liệu khuyết thiếu theo Biến và Quốc gia ASEAN (2010-2024)", fontsize=13, weight="bold")
+        plt.title("Tỷ lệ dữ liệu khuyết thiếu theo Biến và Quốc gia ASEAN (2010-2025)", fontsize=13, weight="bold")
         plt.xlabel("Mã quốc gia (ISO3)", fontsize=11)
         plt.ylabel("Biến số", fontsize=11)
         plt.tight_layout()
@@ -224,7 +224,7 @@ class QualityReporter:
             cbar_kws={"label": "Tỷ lệ thiếu (%)"},
             linewidths=0.5,
         )
-        plt.title("Tỷ lệ dữ liệu khuyết thiếu theo Biến và Năm quan sát (2010-2024)", fontsize=13, weight="bold")
+        plt.title("Tỷ lệ dữ liệu khuyết thiếu theo Biến và Năm quan sát (2010-2025)", fontsize=13, weight="bold")
         plt.xlabel("Năm", fontsize=11)
         plt.ylabel("Biến số", fontsize=11)
         plt.tight_layout()
@@ -233,7 +233,7 @@ class QualityReporter:
         )
         plt.close()
 
-        # 6. Overall Missing Matrix (150 rows x variables)
+        # 6. Overall Missing Matrix (observations x variables)
         plt.figure(figsize=(18, 9))
         df_sorted = df.sort_values(by=["iso3", "year"]).reset_index(drop=True)
         missing_bin = df_sorted[feature_cols].isna().astype(int)
@@ -247,7 +247,7 @@ class QualityReporter:
             xticklabels=True,
             cbar_kws={"ticks": [0, 1], "label": "0 = Có dữ liệu, 1 = Khuyết (NaN)"},
         )
-        plt.title("Ma trận khuyết thiếu quan sát Panel ASEAN (150 quan sát x Biến)", fontsize=13, weight="bold")
+        plt.title(f"Ma trận khuyết thiếu quan sát Panel ASEAN ({len(df_sorted)} quan sát x Biến)", fontsize=13, weight="bold")
         plt.xlabel("Biến số", fontsize=11)
         plt.ylabel("Quan sát Quốc gia - Năm (Sắp xếp theo Nước & Năm)", fontsize=11)
         plt.xticks(rotation=90, fontsize=8)
@@ -508,7 +508,7 @@ class QualityReporter:
                     marker="o",
                     ax=axes[0],
                 )
-                axes[0].set_title("Phổ cập Internet (% dân số) tại ASEAN, 2010-2024", fontsize=12, weight="bold")
+                axes[0].set_title("Phổ cập Internet (% dân số) tại ASEAN, 2010-2025", fontsize=12, weight="bold")
                 axes[0].set_xlabel("Năm")
                 axes[0].set_ylabel("% Dân số dùng Internet")
                 axes[0].grid(True, linestyle="--", alpha=0.5)
@@ -523,7 +523,7 @@ class QualityReporter:
                     marker="s",
                     ax=axes[1],
                 )
-                axes[1].set_title("Tỷ lệ thất nghiệp (% LLLĐ, ILO) tại ASEAN, 2010-2024", fontsize=12, weight="bold")
+                axes[1].set_title("Tỷ lệ thất nghiệp (% LLLĐ, ILO) tại ASEAN, 2010-2025", fontsize=12, weight="bold")
                 axes[1].set_xlabel("Năm")
                 axes[1].set_ylabel("Tỷ lệ thất nghiệp (%)")
                 axes[1].grid(True, linestyle="--", alpha=0.5)

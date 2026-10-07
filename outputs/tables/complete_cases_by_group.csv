@@ -1,9 +1,9 @@
 ﻿group_key,group_name_vi,num_variables,variables_list,total_observations,complete_cases,complete_rate_pct
-HA_TANG_SO,Hạ tầng số,5,"internet_users, fixed_broadband, mobile_cellular, secure_servers, electricity_access",150,141,94.0
-KINH_TE_SO,Kinh tế số,3,"ict_goods_exp, ict_serv_exp, hightech_exp",150,115,76.67
-VIEC_LAM_TONG,Việc làm (Tổng),7,"unemp_total, unemp_total_nat, emp_rate_total, labor_force_part, unemp_youth, youth_neet, unemp_adv_edu",150,94,62.67
-VIEC_LAM_THEO_GIOI,Việc làm theo giới,5,"unemp_female, unemp_male, emp_rate_female, emp_rate_male, labor_force_part_fe",150,150,100.0
-CO_CAU_CHAT_LUONG,Cơ cấu và chất lượng việc làm,7,"emp_agriculture, emp_industry, emp_services, emp_vulnerable, emp_wage_salaried, emp_self, labor_productivity",150,150,100.0
-KIEM_SOAT,Biến kiểm soát kinh tế vĩ mô & xã hội,9,"gdp_pc_ppp, gdp_growth, trade_openness, fdi_net_inflows, urban_pop_rate, tertiary_edu_enr, pop_total, pop_working_age, inflation_cpi",150,115,76.67
-ALL_RAW_INDICATORS,Tất cả 36 chỉ số gốc WDI,36,Toàn bộ 36 biến WDI,150,57,38.0
-CORE_ECONOMETRIC_VARS,Nhóm biến cốt lõi cho mô hình kinh tế lượng,8,"internet_users, fixed_broadband, unemp_total, emp_rate_total, labor_force_part, gdp_pc_ppp, trade_openness, fdi_net_inflows",150,126,84.0
+HA_TANG_SO,Hạ tầng số,5,"internet_users, fixed_broadband, mobile_cellular, secure_servers, electricity_access",160,141,88.12
+KINH_TE_SO,Kinh tế số,3,"ict_goods_exp, ict_serv_exp, hightech_exp",160,115,71.88
+VIEC_LAM_TONG,Việc làm (Tổng),7,"unemp_total, unemp_total_nat, emp_rate_total, labor_force_part, unemp_youth, youth_neet, unemp_adv_edu",160,94,58.75
+VIEC_LAM_THEO_GIOI,Việc làm theo giới,5,"unemp_female, unemp_male, emp_rate_female, emp_rate_male, labor_force_part_fe",160,160,100.0
+CO_CAU_CHAT_LUONG,Cơ cấu và chất lượng việc làm,7,"emp_agriculture, emp_industry, emp_services, emp_vulnerable, emp_wage_salaried, emp_self, labor_productivity",160,160,100.0
+KIEM_SOAT,Biến kiểm soát kinh tế vĩ mô & xã hội,9,"gdp_pc_ppp, gdp_growth, trade_openness, fdi_net_inflows, urban_pop_rate, tertiary_edu_enr, pop_total, pop_working_age, inflation_cpi",160,116,72.5
+ALL_RAW_INDICATORS,Tất cả 36 chỉ số gốc WDI,36,Toàn bộ 36 biến WDI,160,57,35.62
+CORE_ECONOMETRIC_VARS,Nhóm biến cốt lõi cho mô hình kinh tế lượng,8,"internet_users, fixed_broadband, unemp_total, emp_rate_total, labor_force_part, gdp_pc_ppp, trade_openness, fdi_net_inflows",160,126,78.75

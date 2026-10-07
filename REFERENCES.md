@@ -1,5 +1,5 @@
 # TÀI LIỆU THAM KHẢO & CƠ SỞ LÝ THUYẾT (LITERATURE & REFERENCES)
-## Đề tài: "Tác động của hạ tầng số và phổ cập internet đến việc làm tại các nước ASEAN, giai đoạn 2010–2024"
+## Đề tài: "Tác động của hạ tầng số và phổ cập internet đến việc làm tại các nước ASEAN, giai đoạn 2010–2025"
 **Dự án:** DTA301 - Phân tích Dữ liệu Kinh tế  
 **Kho lưu trữ:** [https://github.com/Longnee04/DTA301](https://github.com/Longnee04/DTA301)
 

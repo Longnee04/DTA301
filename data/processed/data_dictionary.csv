@@ -1,7 +1,7 @@
 ﻿column_name,vietnamese_description,wdi_code,unit,variable_group,notes,stata_label,is_derived
 country,Tên quốc gia (tiếng Anh),Scaffold,Tên văn bản,Định danh,Tên chính thức từ World Bank,Country Name,False
 iso3,Mã ISO-3 của quốc gia,Scaffold,Mã 3 ký tự,Định danh,Chuẩn ISO 3166-1 alpha-3,ISO-3 Country Code,False
-year,Năm quan sát,Scaffold,Năm (2010-2024),Định danh,Chuỗi thời gian hàng năm,Calendar Year,False
+year,Năm quan sát,Scaffold,Năm (2010-2025),Định danh,Chuỗi thời gian hàng năm,Calendar Year,False
 internet_users,Tỷ lệ dân số dùng Internet,IT.NET.USER.ZS,% dân số,Hạ tầng số,ITU / WDI. Cá nhân sử dụng internet từ bất kỳ địa điểm nào trong 3 tháng qua.,Internet users (% of population),False
 fixed_broadband,Thuê bao băng rộng cố định,IT.NET.BBND.P2,Thuê bao / 100 dân,Hạ tầng số,ITU / WDI. Kết nối băng rộng cố định tốc độ >= 256 kbit/s.,Fixed broadband subs per 100 people,False
 mobile_cellular,Thuê bao điện thoại di động,IT.CEL.SETS.P2,Thuê bao / 100 dân,Hạ tầng số,ITU / WDI. Thuê bao mạng di động trả trước và trả sau.,Mobile cellular subs per 100 people,False

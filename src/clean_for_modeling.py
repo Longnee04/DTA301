@@ -58,7 +58,7 @@ class ModelDataCleaner:
         if not base_path.exists():
             raise FileNotFoundError(f"Base panel file not found: {base_path}. Run main.py first.")
         df = pd.read_csv(base_path)
-        logger.info(f"Loaded base panel: {df.shape} (150 rows x {df.shape[1]} columns)")
+        logger.info(f"Loaded base panel: {df.shape} ({df.shape[0]} rows x {df.shape[1]} columns)")
         return df
 
     def clean_and_impute(self, df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
@@ -177,7 +177,7 @@ class ModelDataCleaner:
         ).astype(int)
         model_df["high_income"] = model_df["iso3"].isin(["SGP", "BRN"]).astype(int)
 
-        logger.info(f"Model-ready clean dataset shape: {model_df.shape} (150 rows x {model_df.shape[1]} columns)")
+        logger.info(f"Model-ready clean dataset shape: {model_df.shape} ({model_df.shape[0]} rows x {model_df.shape[1]} columns)")
         return model_df
 
     def export_clean_data(self, model_df: pd.DataFrame) -> Dict[str, Path]:

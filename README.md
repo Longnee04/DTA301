@@ -1,5 +1,5 @@
 # DTA301: Assignment Cuối Kỳ Phân Tích Dữ Liệu Kinh Tế
-## Đề tài: "Tác động của hạ tầng số và phổ cập internet đến việc làm tại các nước ASEAN, giai đoạn 2010–2024"
+## Đề tài: "Tác động của hạ tầng số và phổ cập internet đến việc làm tại các nước ASEAN, giai đoạn 2010–2025"
 
 ---
 
@@ -10,8 +10,8 @@ Dự án này là hệ thống xử lý, làm sạch và chuẩn bị dữ liệ
 ### Phạm vi nghiên cứu
 - **Không gian:** 10 quốc gia thành viên ASEAN (chuẩn ISO3):
   `BRN` (Brunei), `KHM` (Campuchia), `IDN` (Indonesia), `LAO` (Lào), `MYS` (Malaysia), `MMR` (Myanmar), `PHL` (Philippines), `SGP` (Singapore), `THA` (Thái Lan), `VNM` (Việt Nam).
-- **Thời gian:** 15 năm liên tục, từ năm **2010** đến năm **2024**.
-- **Kích thước bảng cân bằng (Balanced Panel Scaffold):** 10 quốc gia $\times$ 15 năm = **150 quan sát (Country-Year observations)**.
+- **Thời gian:** 16 năm liên tục, từ năm **2010** đến năm **2025**.
+- **Kích thước bảng cân bằng (Balanced Panel Scaffold):** 10 quốc gia $\times$ 16 năm = **160 quan sát (Country-Year observations)**.
 
 ---
 
@@ -24,14 +24,15 @@ DTA301/
 │   │   ├── metadata.csv               # Danh mục metadata: mã, tên, đơn vị, nguồn, ngày tải
 │   │   ├── IT_NET_USER_ZS.csv         # Tỷ lệ dân số dùng Internet
 │   │   ├── SL_UEM_TOTL_ZS.csv         # Tỷ lệ thất nghiệp tổng số (ILO)
+│   │   ├── asean_raw_data.xlsx        # Sổ làm việc Excel tổng hợp toàn bộ dữ liệu thô
 │   │   └── ... (36 tệp CSV thô)
 │   └── processed/                     # Dữ liệu đã làm sạch và các biến phái sinh
-│       ├── asean_panel.csv            # Bảng panel gốc dạng Long (150 dòng x 39 cột, giữ nguyên NaN)
-│       ├── asean_panel_wide.csv       # Bảng panel dạng Wide (10 dòng x 542 cột)
+│       ├── asean_panel.csv            # Bảng panel gốc dạng Long (160 dòng x 39 cột, giữ nguyên NaN)
+│       ├── asean_panel_wide.csv       # Bảng panel dạng Wide (10 dòng x 578 cột)
 │       ├── asean_panel.dta            # Định dạng Stata 118 có gán nhãn biến (variable labels)
-│       ├── asean_panel_derived.csv    # Bảng panel mở rộng chứa các biến phái sinh (150 dòng x 58 cột)
+│       ├── asean_panel_derived.csv    # Bảng panel mở rộng chứa các biến phái sinh (160 dòng x 58 cột)
 │       ├── asean_panel_derived.dta    # Dữ liệu phái sinh cho Stata
-│       ├── asean_panel_clean.csv      # Bảng panel ĐÃ LÀM SẠCH 100% HOÀN CHỈNH SẴN SÀNG CHẠY MODEL (150 dòng x 60 cột)
+│       ├── asean_panel_clean.csv      # Bảng panel ĐÃ LÀM SẠCH 100% HOÀN CHỈNH SẴN SÀNG CHẠY MODEL (160 dòng x 60 cột)
 │       ├── asean_panel_clean.dta      # Định dạng Stata của bảng làm sạch chuyên sâu
 │       └── data_dictionary.csv        # Bản sao từ điển dữ liệu
 ├── outputs/
@@ -165,9 +166,9 @@ python main.py
 ```
 
 ### Các bước mà `main.py` tự động thực hiện:
-1. **Kết nối World Bank API v2:** Gửi truy vấn HTTP có gắn cơ chế retry (exponential backoff) đối với từng chỉ số cho 10 nước ASEAN giai đoạn 2010–2024. Nếu chỉ số gặp lỗi mạng, hệ thống ghi log cảnh báo và tiếp tục chạy mà không gián đoạn.
-2. **Lưu dữ liệu thô (Raw Data):** Lưu 36 file CSV vào `data/raw/` cùng catalog `data/raw/metadata.csv`. Dữ liệu thô này được bảo toàn nguyên vẹn 100%.
-3. **Lập bảng Panel chuẩn (Base Panel):** Ghép 36 chỉ số vào khung bảng chuẩn 150 dòng (10 nước $\times$ 15 năm), giữ nguyên giá trị `NaN` (không tự ý nội suy trong bảng lưu trữ gốc). Xuất bảng long (`asean_panel.csv`), bảng wide (`asean_panel_wide.csv`) và bảng Stata (`asean_panel.dta`).
+1. **Kết nối World Bank API v2:** Gửi truy vấn HTTP có gắn cơ chế retry (exponential backoff) đối với từng chỉ số cho 10 nước ASEAN giai đoạn 2010–2025. Nếu chỉ số gặp lỗi mạng, hệ thống ghi log cảnh báo và tiếp tục chạy mà không gián đoạn.
+2. **Lưu dữ liệu thô (Raw Data):** Lưu 36 file CSV vào `data/raw/` cùng catalog `data/raw/metadata.csv` và sổ làm việc Excel `data/raw/asean_raw_data.xlsx`. Dữ liệu thô này được bảo toàn nguyên vẹn 100%.
+3. **Lập bảng Panel chuẩn (Base Panel):** Ghép 36 chỉ số vào khung bảng chuẩn 160 dòng (10 nước $\times$ 16 năm), giữ nguyên giá trị `NaN` (không tự ý nội suy trong bảng lưu trữ gốc). Xuất bảng long (`asean_panel.csv`), bảng wide (`asean_panel_wide.csv`) và bảng Stata (`asean_panel.dta`).
 4. **Tính toán biến phái sinh:** Tạo log, trễ L1/L2, sai phân, khoảng cách giới và biến giả trên dữ liệu gốc, xuất ra `asean_panel_derived.csv` và `asean_panel_derived.dta`.
 5. **Làm sạch dữ liệu chuyên dụng chạy mô hình (Clean Model-Ready Panel):**
    - Áp dụng nội suy tuyến tính chuỗi thời gian bên trong từng nước (`within-country linear interpolation` và `bfill/ffill`).
@@ -191,21 +192,23 @@ python main.py
 Theo báo cáo xuất ra tại `outputs/tables/`:
 
 1. **Tỷ lệ khuyết thiếu theo quốc gia ([`missing_by_country.csv`](file:///c:/Users/NGUYENLONG/Desktop/DTA301/outputs/tables/missing_by_country.csv)):**
-   - **Thái Lan (THA):** Hoàn thiện 100% (tỷ lệ khuyết 0.00%).
-   - **Indonesia (IDN):** 0.74% khuyết.
-   - **Singapore (SGP), Malaysia (MYS):** 1.85% khuyết.
-   - **Philippines (PHL):** 2.78% khuyết.
-   - **Việt Nam (VNM):** 3.52% khuyết (dữ liệu giáo dục đại học và xuất khẩu dịch vụ ICT một số năm chưa công bố).
-   - **Campuchia (KHM):** 3.89% khuyết.
-   - **Brunei (BRN):** 4.26% khuyết.
-   - **Lào (LAO):** 8.52% khuyết.
-   - **Myanmar (MMR):** 13.70% khuyết (do hạn chế thu thập số liệu giai đoạn sau 2021).
+   - **Thái Lan (THA):** Hoàn thiện cao nhất (tỷ lệ khuyết 1.39%).
+   - **Indonesia (IDN):** 2.60% khuyết.
+   - **Singapore (SGP):** 3.30% khuyết.
+   - **Malaysia (MYS):** 3.99% khuyết.
+   - **Philippines (PHL):** 4.51% khuyết.
+   - **Campuchia (KHM):** 5.56% khuyết.
+   - **Việt Nam (VNM):** 5.56% khuyết.
+   - **Brunei (BRN):** 5.90% khuyết.
+   - **Lào (LAO):** 10.42% khuyết.
+   - **Myanmar (MMR):** 15.45% khuyết.
 
 2. **Tỷ lệ quan sát đầy đủ theo nhóm biến ([`complete_cases_by_group.csv`](file:///c:/Users/NGUYENLONG/Desktop/DTA301/outputs/tables/complete_cases_by_group.csv)):**
-   - **Việc làm theo giới (VIEC_LAM_THEO_GIOI):** 150/150 quan sát đầy đủ (100.0%).
-   - **Cơ cấu và chất lượng việc làm (CO_CAU_CHAT_LUONG):** 150/150 quan sát đầy đủ (100.0%).
-   - **Hạ tầng số (HA_TANG_SO):** 141/150 quan sát đầy đủ (94.0%).
-   - **Nhóm biến cốt lõi cho mô hình kinh tế lượng (CORE_ECONOMETRIC_VARS):** 126/150 quan sát đầy đủ (84.0%).
+   - **Việc làm theo giới (VIEC_LAM_THEO_GIOI):** 160/160 quan sát đầy đủ (**100.0%**).
+   - **Cơ cấu và chất lượng việc làm (CO_CAU_CHAT_LUONG):** 160/160 quan sát đầy đủ (**100.0%**).
+   - **Hạ tầng số (HA_TANG_SO):** 141/160 quan sát đầy đủ (88.1%).
+   - **Nhóm biến cốt lõi cho mô hình kinh tế lượng (CORE_ECONOMETRIC_VARS):** 126/160 quan sát đầy đủ (78.8%).
+   - **Bảng dữ liệu làm sạch mô hình (`asean_panel_clean.csv`):** 160/160 quan sát đầy đủ (**100.0%**).
 
 3. **Phát hiện ngoại lai ([`outliers_zscore.csv`](file:///c:/Users/NGUYENLONG/Desktop/DTA301/outputs/tables/outliers_zscore.csv) & [`outliers_jumps.csv`](file:///c:/Users/NGUYENLONG/Desktop/DTA301/outputs/tables/outliers_jumps.csv)):**
    - Các ngoại lai về máy chủ bảo mật (`secure_servers`) xuất hiện chủ yếu ở Singapore do vị thế là trung tâm dữ liệu và tài chính hàng đầu khu vực.

@@ -37,7 +37,7 @@ class PanelCleaner:
 
     def build_panel_scaffold(self) -> pd.DataFrame:
         """
-        Creates a balanced panel index of 10 ASEAN countries x 15 years (2010-2024) = 150 rows.
+        Creates a balanced panel index of 10 ASEAN countries x 16 years (2010-2025) = 160 rows.
         """
         records = []
         for iso3 in ISO3_LIST:
@@ -72,7 +72,7 @@ class PanelCleaner:
         Merges all individual indicator series into a single comprehensive panel.
         Ensures NaN values are strictly preserved without imputation.
         """
-        logger.info("Assembling balanced ASEAN panel (10 countries x 15 years)...")
+        logger.info("Assembling balanced ASEAN panel (10 countries x 16 years)...")
         panel = self.build_panel_scaffold()
 
         for code, info in ALL_INDICATORS.items():
@@ -103,7 +103,7 @@ class PanelCleaner:
 
         # Sort cleanly
         panel = panel.sort_values(by=["iso3", "year"]).reset_index(drop=True)
-        logger.info(f"Assembled panel shape: {panel.shape} (150 rows expected)")
+        logger.info(f"Assembled panel shape: {panel.shape} (160 rows expected)")
         return panel
 
     def create_wide_panel(self, panel_df: pd.DataFrame) -> pd.DataFrame:

@@ -1,12 +1,13 @@
 """
 Main pipeline execution script for DTA301 ASEAN Digital Infrastructure & Employment Project.
 Runs the complete workflow:
-1. Ingestion: Fetches 36 WDI indicators for 10 ASEAN countries (2010-2024), saves raw CSVs and metadata.
-2. Cleaning & Panel Construction: Assembles balanced panel (150 obs), exports Long CSV, Wide CSV, and Stata .dta.
+1. Ingestion: Fetches 36 WDI indicators for 10 ASEAN countries (2010-2025), saves raw CSVs and metadata.
+2. Cleaning & Panel Construction: Assembles balanced panel (160 obs), exports Long CSV, Wide CSV, and Stata .dta.
 3. Feature Engineering: Calculates logs, L1/L2 lags, differences, gender gaps, and dummies.
-4. Data Dictionary: Exports comprehensive documentation table.
-5. Quality Auditing: Analyzes missingness, complete cases, outliers (Z-scores & annual jumps), renders heatmaps.
-6. Summary Statistics: Exports overall and per-country descriptive tables.
+4. Model Data Cleaning: Controlled time-series imputation & winsorization (100% complete panel).
+5. Data Dictionary: Exports comprehensive documentation table.
+6. Quality Auditing: Analyzes missingness, complete cases, outliers (Z-scores & annual jumps), renders heatmaps.
+7. Summary Statistics: Exports overall and per-country descriptive tables.
 """
 
 import sys
