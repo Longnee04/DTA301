@@ -62,6 +62,7 @@ DTA301/
 ├── data_dictionary.csv                # Từ điển dữ liệu toàn diện (60 biến)
 ├── main.py                            # Tệp thực thi toàn bộ pipeline từ đầu đến cuối
 ├── requirements.txt                   # Danh sách thư viện phụ thuộc
+├── REFERENCES.md                      # Danh mục tài liệu tham khảo, bài báo khoa học và link báo cáo
 └── README.md                          # Tài liệu hướng dẫn sử dụng chi tiết
 ```
 
@@ -229,6 +230,21 @@ Theo báo cáo xuất ra tại `outputs/tables/`:
 
 ---
 
-## 8. Tác giả & Giấy phép
+## 8. Tài liệu tham khảo & Nghiên cứu lý thuyết
+
+Toàn bộ danh mục tài liệu tham khảo học thuật, bài báo kinh tế lượng quốc tế, báo cáo chính sách khu vực ASEAN và trích dẫn chuẩn APA 7th được lưu trữ chi tiết tại:
+👉 **[REFERENCES.md](file:///c:/Users/NGUYENLONG/Desktop/DTA301/REFERENCES.md)** (hoặc xem trực tiếp trên [GitHub REFERENCES.md](https://github.com/Longnee04/DTA301/blob/main/REFERENCES.md)).
+
+*Bao gồm các bài báo then chốt:*
+- **Hjort & Poulsen (2019, *AER*):** Bằng chứng thực nghiệm về cáp quang biển, internet băng rộng tạo việc làm tại các nước đang phát triển.
+- **Autor (2015, *JEP*):** Lý thuyết về công nghệ, tự động hóa và phân cực việc làm.
+- **Viollaz & Winkler (2022, *WBER*):** Tác động của internet đối với việc thu hẹp khoảng cách giới trên thị trường lao động.
+- **World Bank (2016):** Báo cáo phát triển thế giới: *Digital Dividends*.
+- **ADB (2018):** Báo cáo triển vọng phát triển châu Á: *How Technology Affects Jobs*.
+- **Google, Temasek & Bain (2023, 2024):** *e-Conomy SEA Report*.
+
+---
+
+## 9. Tác giả & Giấy phép
 - Dự án phục vụ mục đích nghiên cứu học thuật môn **Phân tích Dữ liệu (DTA301)**.
 - Dữ liệu thuộc bản quyền công khai của **The World Bank (World Development Indicators)** và **International Labour Organization (ILOSTAT)**.
