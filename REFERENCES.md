@@ -34,7 +34,89 @@ Các nguồn dữ liệu gốc được tích hợp vào pipeline thu thập t�
 
 ---
 
-## 2. CÁC BÀI BÁO KHOA HỌC KINH TẾ LƯỢNG TIÊU BIỂU (EMPIRICAL PAPERS)
+## 2. LINK TRANG WEB TRA CỨU TRỰC QUAN TỪNG CHỈ SỐ TRÊN GIAO DIỆN WORLD BANK
+
+Dưới đây là các đường link giao diện đồ họa chính thức trên cổng World Bank Data Portal (bao gồm biểu đồ chuỗi thời gian, bản đồ nhiệt thế giới và phân tích so sánh giữa các quốc gia ASEAN):
+
+### A. Nhóm Hạ tầng số (Digital Infrastructure)
+* **Tỷ lệ dân số sử dụng Internet (`IT.NET.USER.ZS`):**  
+  [https://data.worldbank.org/indicator/IT.NET.USER.ZS](https://data.worldbank.org/indicator/IT.NET.USER.ZS)
+* **Thuê bao băng rộng cố định trên 100 dân (`IT.NET.BBND.P2`):**  
+  [https://data.worldbank.org/indicator/IT.NET.BBND.P2](https://data.worldbank.org/indicator/IT.NET.BBND.P2)
+* **Thuê bao điện thoại di động trên 100 dân (`IT.CEL.SETS.P2`):**  
+  [https://data.worldbank.org/indicator/IT.CEL.SETS.P2](https://data.worldbank.org/indicator/IT.CEL.SETS.P2)
+* **Máy chủ Internet bảo mật SSL/TLS trên 1 triệu dân (`IT.NET.SECR.P6`):**  
+  [https://data.worldbank.org/indicator/IT.NET.SECR.P6](https://data.worldbank.org/indicator/IT.NET.SECR.P6)
+* **Tỷ lệ dân số tiếp cận điện lưới (`EG.ELC.ACCS.ZS`):**  
+  [https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS](https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS)
+
+### B. Nhóm Kinh tế số & Xuất khẩu công nghệ cao (Digital Economy)
+* **Xuất khẩu hàng hóa ICT (% tổng xuất khẩu hàng hóa - `TX.VAL.ICTG.ZS.UN`):**  
+  [https://data.worldbank.org/indicator/TX.VAL.ICTG.ZS.UN](https://data.worldbank.org/indicator/TX.VAL.ICTG.ZS.UN)
+* **Xuất khẩu dịch vụ ICT (% xuất khẩu dịch vụ - `BX.GSR.CCIS.ZS`):**  
+  [https://data.worldbank.org/indicator/BX.GSR.CCIS.ZS](https://data.worldbank.org/indicator/BX.GSR.CCIS.ZS)
+* **Xuất khẩu công nghệ cao (% xuất khẩu hàng chế biến chế tạo - `TX.VAL.TECH.MF.ZS`):**  
+  [https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS](https://data.worldbank.org/indicator/TX.VAL.TECH.MF.ZS)
+
+### C. Nhóm Việc làm & Thất nghiệp (Employment & Unemployment)
+* **Tỷ lệ thất nghiệp tổng thể (ước tính mô hình ILO - `SL.UEM.TOTL.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS)
+* **Tỷ lệ thất nghiệp tổng thể (ước tính quốc gia - `SL.UEM.TOTL.NE.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.UEM.TOTL.NE.ZS](https://data.worldbank.org/indicator/SL.UEM.TOTL.NE.ZS)
+* **Tỷ lệ thất nghiệp ở nữ giới (`SL.UEM.TOTL.FE.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.UEM.TOTL.FE.ZS](https://data.worldbank.org/indicator/SL.UEM.TOTL.FE.ZS)
+* **Tỷ lệ thất nghiệp ở nam giới (`SL.UEM.TOTL.MA.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.UEM.TOTL.MA.ZS](https://data.worldbank.org/indicator/SL.UEM.TOTL.MA.ZS)
+* **Tỷ lệ việc làm trên dân số 15+ (`SL.EMP.TOTL.SP.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS](https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS)
+* **Tỷ lệ tham gia lực lượng lao động (`SL.TLF.CACT.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.TLF.CACT.ZS](https://data.worldbank.org/indicator/SL.TLF.CACT.ZS)
+* **Tỷ lệ thất nghiệp thanh niên 15–24 tuổi (`SL.UEM.1524.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.UEM.1524.ZS](https://data.worldbank.org/indicator/SL.UEM.1524.ZS)
+* **Tỷ lệ thanh niên không học, không làm - NEET (`SL.UEM.NEET.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.UEM.NEET.ZS](https://data.worldbank.org/indicator/SL.UEM.NEET.ZS)
+* **Thất nghiệp ở lao động trình độ cao (`SL.UEM.ADVN.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.UEM.ADVN.ZS](https://data.worldbank.org/indicator/SL.UEM.ADVN.ZS)
+
+### D. Nhóm Cơ cấu ngành & Chất lượng việc làm (Structure & Quality)
+* **Tỷ lệ việc làm trong nông nghiệp (`SL.AGR.EMPL.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS](https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS)
+* **Tỷ lệ việc làm trong dịch vụ (`SL.SRV.EMPL.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS](https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS)
+* **Tỷ lệ việc làm trong công nghiệp (`SL.IND.EMPL.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.IND.EMPL.ZS](https://data.worldbank.org/indicator/SL.IND.EMPL.ZS)
+* **Tỷ lệ việc làm dễ bị tổn thương (`SL.EMP.VULN.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.EMP.VULN.ZS](https://data.worldbank.org/indicator/SL.EMP.VULN.ZS)
+* **Lao động làm công ăn lương (`SL.EMP.WORK.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.EMP.WORK.ZS](https://data.worldbank.org/indicator/SL.EMP.WORK.ZS)
+* **Lao động tự doanh/hộ gia đình (`SL.EMP.SELF.ZS`):**  
+  [https://data.worldbank.org/indicator/SL.EMP.SELF.ZS](https://data.worldbank.org/indicator/SL.EMP.SELF.ZS)
+* **Năng suất lao động GDP/lao động (`SL.GDP.PCAP.EM.KD`):**  
+  [https://data.worldbank.org/indicator/SL.GDP.PCAP.EM.KD](https://data.worldbank.org/indicator/SL.GDP.PCAP.EM.KD)
+
+### E. Nhóm Kinh tế vĩ mô & Kiểm soát (Macroeconomic Controls)
+* **GDP bình quân đầu người theo sức mua tương đương - PPP (`NY.GDP.PCAP.PP.KD`):**  
+  [https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD](https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD)
+* **Tốc độ tăng trưởng GDP hàng năm (`NY.GDP.MKTP.KD.ZG`):**  
+  [https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG)
+* **Độ mở thương mại % GDP (`NE.TRD.GNFS.ZS`):**  
+  [https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS](https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS)
+* **Dòng vốn FDI ròng % GDP (`BX.KLT.DINV.WD.GD.ZS`):**  
+  [https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS](https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS)
+* **Tỷ lệ dân số đô thị (`SP.URB.TOTL.IN.ZS`):**  
+  [https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS](https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS)
+* **Tỷ lệ nhập học đại học/cao đẳng thô (`SE.TER.ENRR`):**  
+  [https://data.worldbank.org/indicator/SE.TER.ENRR](https://data.worldbank.org/indicator/SE.TER.ENRR)
+* **Tổng dân số (`SP.POP.TOTL`):**  
+  [https://data.worldbank.org/indicator/SP.POP.TOTL](https://data.worldbank.org/indicator/SP.POP.TOTL)
+* **Tỷ lệ dân số trong độ tuổi lao động 15–64 (`SP.POP.1564.TO.ZS`):**  
+  [https://data.worldbank.org/indicator/SP.POP.1564.TO.ZS](https://data.worldbank.org/indicator/SP.POP.1564.TO.ZS)
+* **Tỷ lệ lạm phát CPI hàng năm (`FP.CPI.TOTL.ZG`):**  
+  [https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG)
+
+---
+
+## 3. CÁC BÀI BÁO KHOA HỌC KINH TẾ LƯỢNG TIÊU BIỂU (EMPIRICAL PAPERS)
 
 Dưới đây là các công trình nghiên cứu kinh tế lượng đã xuất bản trên các tạp chí hàng đầu thế giới (AER, JEP, WBER), cung cấp nền tảng lý thuyết và cơ sở để lựa chọn biến số trong mô hình:
 
@@ -85,7 +167,7 @@ Dưới đây là các công trình nghiên cứu kinh tế lượng đã xuất
 
 ---
 
-## 3. BÁO CÁO CỦA CÁC TỔ CHỨC QUỐC TẾ VỀ ASEAN & CHUYỂN ĐỔI SỐ
+## 4. BÁO CÁO CỦA CÁC TỔ CHỨC QUỐC TẾ VỀ ASEAN & CHUYỂN ĐỔI SỐ
 
 Các báo cáo định chế cung cấp góc nhìn thực tế và các số liệu ngữ cảnh sinh động cho ASEAN:
 
@@ -121,7 +203,7 @@ Các báo cáo định chế cung cấp góc nhìn thực tế và các số li�
 
 ---
 
-## 4. DANH MỤC TRÍCH DẪN CHUẨN APA 7TH (COPY-PASTE VÀO BÀI TIỂU LUẬN)
+## 5. DANH MỤC TRÍCH DẪN CHUẨN APA 7TH (COPY-PASTE VÀO BÀI TIỂU LUẬN)
 
 ```text
 Acemoglu, D., & Restrepo, P. (2018). The race between man and machine: Implications of technology for training, wages, and skills. American Economic Review, 108(6), 1488-1542. https://doi.org/10.1257/aer.20160696
