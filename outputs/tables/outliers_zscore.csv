@@ -1,4 +1,4 @@
-﻿iso3,country,year,variable,value,panel_mean,panel_std,z_score,outlier_type
+iso3,country,year,variable,value,panel_mean,panel_std,z_score,outlier_type
 KHM,Cambodia,2018,diff_internet_users,32.0997,3.7169,5.1567,5.5,High outlier (z > 3)
 KHM,Cambodia,2016,diff_internet_users,25.9653,3.7169,5.1567,4.31,High outlier (z > 3)
 KHM,Cambodia,2019,diff_internet_users,-12.6941,3.7169,5.1567,-3.18,Low outlier (z < -3)

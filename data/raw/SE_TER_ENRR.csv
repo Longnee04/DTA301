@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2010,15.3331604003906
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2011,17.4244594573975
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2012,22.0733509063721
@@ -13,8 +13,8 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2020,2
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2021,27.4258937503291
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2022,31.1925368707703
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2023,36.4182725443167
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2024,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2024,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",BRN,Brunei Darussalam,2025,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2010,23.4159086398462
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2011,25.027444191823
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2012,29.0425391195214
@@ -29,15 +29,15 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2020,38.165060
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2021,40.6293239880732
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2022,42.3260385456152
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2023,44.8813034886441
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2024,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2024,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",IDN,Indonesia,2025,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2010,12.1998596191406
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2011,11.4902860215331
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2012,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2013,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2014,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2012,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2013,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2014,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2015,13.615484963166
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2016,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2016,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2017,12.5181529981862
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2018,13.2671737077763
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2019,12.9409846754696
@@ -46,7 +46,7 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2021,13.5005634
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2022,14.6069513022825
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2023,17.4362364390629
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2024,21.4437426836662
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",KHM,Cambodia,2025,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2010,16.6638298034668
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2011,17.4954696423161
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2012,17.330766926856
@@ -61,24 +61,24 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2020,12.56191177
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2021,12.4396649191011
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2022,13.677811550152
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2023,14.8841695785522
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2024,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2025,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2010,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2024,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",LAO,Lao PDR,2025,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2010,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2011,14.3246002197266
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2012,13.7377004623413
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2013,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2014,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2015,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2016,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2017,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2013,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2014,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2015,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2016,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2017,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2018,20.3723297119141
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2019,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2020,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2021,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2022,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2023,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2024,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2019,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2020,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2021,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2022,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2023,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2024,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MMR,Myanmar,2025,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2010,36.6774305573553
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2011,35.5661790570975
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2012,36.825516807355
@@ -89,12 +89,12 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2016,45.4034659
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2017,42.293211695146
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2018,43.3100279300797
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2019,40.8082966813944
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2020,39.7445667367633
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2020,39.744566736763304
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2021,38.1899993008367
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2022,36.9853099297291
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2023,37.2745812491757
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2024,38.5013945445142
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",MYS,Malaysia,2025,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2010,27.7549235195177
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2011,29.0709151463153
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2012,29.6298942276846
@@ -110,13 +110,13 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2021,33.6166
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2022,38.4011392706768
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2023,44.2394203278519
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2024,47.4134996154186
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",PHL,Philippines,2025,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2010,93.2696812803906
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2011,95.9817452372883
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2012,101.99681244982
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2013,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2014,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2015,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2013,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2014,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2015,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2016,83.9409778236648
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2017,84.7929138455372
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2018,88.8864453410769
@@ -125,8 +125,8 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2020,93.134767
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2021,97.0989103061521
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2022,98.02222650098
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2023,97.2886546863037
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2024,
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2024,NA
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",SGP,Singapore,2025,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",THA,Thailand,2010,46.3783774485726
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",THA,Thailand,2011,52.7332765596589
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",THA,Thailand,2012,50.7403100613359
@@ -151,11 +151,11 @@ SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2014,31.3306389
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2015,29.7250797402999
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2016,29.0811980839409
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2017,25.9526307046456
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2018,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2018,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2019,30.2241191864014
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2020,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2020,NA
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2021,41.9554971195048
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2022,44.7536854027422
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2023,32.8415128147815
 SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2024,37.5923642016718
-SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2025,
+SE.TER.ENRR,"School enrollment, tertiary (% gross)",VNM,Viet Nam,2025,NA

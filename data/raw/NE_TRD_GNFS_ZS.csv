@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 NE.TRD.GNFS.ZS,Trade (% of GDP),BRN,Brunei Darussalam,2010,95.3715460226132
 NE.TRD.GNFS.ZS,Trade (% of GDP),BRN,Brunei Darussalam,2011,99.5379309038179
 NE.TRD.GNFS.ZS,Trade (% of GDP),BRN,Brunei Darussalam,2012,105.640902140819
@@ -30,7 +30,7 @@ NE.TRD.GNFS.ZS,Trade (% of GDP),IDN,Indonesia,2021,40.2047582749671
 NE.TRD.GNFS.ZS,Trade (% of GDP),IDN,Indonesia,2022,45.4646701959453
 NE.TRD.GNFS.ZS,Trade (% of GDP),IDN,Indonesia,2023,41.4604765447233
 NE.TRD.GNFS.ZS,Trade (% of GDP),IDN,Indonesia,2024,42.809937870822
-NE.TRD.GNFS.ZS,Trade (% of GDP),IDN,Indonesia,2025,43.3912070511204
+NE.TRD.GNFS.ZS,Trade (% of GDP),IDN,Indonesia,2025,43.391207051120404
 NE.TRD.GNFS.ZS,Trade (% of GDP),KHM,Cambodia,2010,109.998400607758
 NE.TRD.GNFS.ZS,Trade (% of GDP),KHM,Cambodia,2011,109.790505166814
 NE.TRD.GNFS.ZS,Trade (% of GDP),KHM,Cambodia,2012,116.740233418212
@@ -54,31 +54,31 @@ NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2013,98.1791466159604
 NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2014,99.0597382933399
 NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2015,85.798321703681
 NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2016,75.0918909204124
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2017,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2018,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2019,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2020,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2021,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2022,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2023,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2024,
-NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2025,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2010,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2011,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2012,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2013,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2014,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2015,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2016,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2017,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2018,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2019,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2020,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2021,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2022,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2023,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2024,
-NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2025,
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2017,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2018,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2019,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2020,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2021,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2022,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2023,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2024,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),LAO,Lao PDR,2025,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2010,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2011,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2012,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2013,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2014,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2015,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2016,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2017,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2018,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2019,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2020,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2021,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2022,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2023,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2024,NA
+NE.TRD.GNFS.ZS,Trade (% of GDP),MMR,Myanmar,2025,NA
 NE.TRD.GNFS.ZS,Trade (% of GDP),MYS,Malaysia,2010,157.944764886771
 NE.TRD.GNFS.ZS,Trade (% of GDP),MYS,Malaysia,2011,154.937684607226
 NE.TRD.GNFS.ZS,Trade (% of GDP),MYS,Malaysia,2012,147.841754766013

@@ -5,7 +5,9 @@
 
 ## 1. Giới thiệu tổng quan
 
-Dự án này là hệ thống xử lý, làm sạch và chuẩn bị dữ liệu bảng (panel data) tự động cho assignment cuối kỳ môn Phân tích Dữ liệu (DTA301). Mục tiêu là xây dựng bộ dữ liệu kinh tế lượng đa chiều, phong phú và chuẩn mực từ cơ sở dữ liệu **World Development Indicators (WDI)** của Ngân hàng Thế giới (World Bank) nhằm nghiên cứu mối quan hệ nhân quả và tác động của hạ tầng số, phổ cập internet đến cơ cấu việc làm, thất nghiệp và năng suất lao động tại 10 quốc gia Đông Nam Á (ASEAN).
+Dự án này là hệ thống thu thập, xử lý, làm sạch và chuẩn bị dữ liệu bảng (panel data) tự động cho bài tập lớn / assignment môn **Phân tích Dữ liệu Kinh tế (DTA301)**, được xây dựng **hoàn toàn bằng ngôn ngữ R** (chuẩn RStudio/Rscript).
+
+Mục tiêu là xây dựng bộ dữ liệu kinh tế lượng đa chiều, phong phú và chuẩn mực từ cơ sở dữ liệu **World Development Indicators (WDI)** của Ngân hàng Thế giới (World Bank) nhằm nghiên cứu mối quan hệ nhân quả và tác động của hạ tầng số, phổ cập internet đến cơ cấu việc làm, thất nghiệp và năng suất lao động tại 10 quốc gia Đông Nam Á (ASEAN).
 
 ### Phạm vi nghiên cứu
 - **Không gian:** 10 quốc gia thành viên ASEAN (chuẩn ISO3):
@@ -15,10 +17,24 @@ Dự án này là hệ thống xử lý, làm sạch và chuẩn bị dữ liệ
 
 ---
 
-## 2. Cấu trúc thư mục dự án
+## 2. Cấu trúc thư mục dự án (Chuẩn R)
 
 ```text
 DTA301/
+├── DTA301.Rproj                       # Tệp cấu hình dự án RStudio Project
+├── .Rprofile                          # Tự động nạp thư viện và môi trường R
+├── .Renviron                          # Thiết lập đường dẫn thư viện R
+├── install_packages.R                 # Kịch bản cài đặt tự động tất cả thư viện R cần thiết
+├── main.R                             # Kịch bản điều phối toàn bộ luồng xử lý R
+├── R/                                 # Toàn bộ mã nguồn R dạng mô-đun
+│   ├── config.R                       # Cấu hình danh mục chỉ số, nhóm biến, quốc gia, nhãn Stata
+│   ├── utils.R                        # Logger UTF-8, HTTP retry với exponential backoff
+│   ├── fetcher.R                      # Thu thập API World Bank v2, lưu raw CSV & metadata
+│   ├── cleaner.R                      # Lập dàn bảng panel 160 dòng, xuất CSV long/wide và Stata .dta
+│   ├── feature_engineering.R          # Tạo log, trễ L1/L2, sai phân diff, khoảng cách giới, biến giả
+│   ├── clean_for_modeling.R           # Làm sạch chuyên sâu, nội suy chuỗi thời gian và winsorize
+│   ├── quality_reporter.R             # Kiểm toán missing, outliers, complete cases và vẽ biểu đồ ggplot2
+│   └── export_raw_excel.R             # Xuất sổ làm việc Excel nhiều tab với định dạng chuyên nghiệp
 ├── data/
 │   ├── raw/                           # Dữ liệu thô từng chỉ số tải từ World Bank API
 │   │   ├── metadata.csv               # Danh mục metadata: mã, tên, đơn vị, nguồn, ngày tải
@@ -27,19 +43,19 @@ DTA301/
 │   │   ├── asean_raw_data.xlsx        # Sổ làm việc Excel tổng hợp toàn bộ dữ liệu thô
 │   │   └── ... (36 tệp CSV thô)
 │   └── processed/                     # Dữ liệu đã làm sạch và các biến phái sinh
-│       ├── asean_panel.csv            # Bảng panel gốc dạng Long (160 dòng x 39 cột, giữ nguyên NaN)
+│       ├── asean_panel.csv            # Bảng panel gốc dạng Long (160 dòng x 39 cột, giữ nguyên NA)
 │       ├── asean_panel_wide.csv       # Bảng panel dạng Wide (10 dòng x 578 cột)
-│       ├── asean_panel.dta            # Định dạng Stata 118 có gán nhãn biến (variable labels)
+│       ├── asean_panel.dta            # Định dạng Stata có gán nhãn biến (variable labels)
 │       ├── asean_panel_derived.csv    # Bảng panel mở rộng chứa các biến phái sinh (160 dòng x 58 cột)
 │       ├── asean_panel_derived.dta    # Dữ liệu phái sinh cho Stata
-│       ├── asean_panel_clean.csv      # Bảng panel ĐÃ LÀM SẠCH 100% HOÀN CHỈNH SẴN SÀNG CHẠY MODEL (160 dòng x 60 cột)
+│       ├── asean_panel_clean.csv      # BẢNG LÀM SẠCH 100% HOÀN CHỈNH SẴN SÀNG CHẠY MODEL (160 dòng x 60 cột)
 │       ├── asean_panel_clean.dta      # Định dạng Stata của bảng làm sạch chuyên sâu
 │       └── data_dictionary.csv        # Bản sao từ điển dữ liệu
 ├── outputs/
-│   ├── figures/                       # Trực quan hóa kiểm toán chất lượng và xu hướng
+│   ├── figures/                       # Trực quan hóa kiểm toán chất lượng và xu hướng (ggplot2)
 │   │   ├── missing_heatmap_country_var.png   # Heatmap tỷ lệ thiếu theo Quốc gia x Biến
 │   │   ├── missing_heatmap_year_var.png      # Heatmap tỷ lệ thiếu theo Năm x Biến
-│   │   ├── missing_matrix.png                # Ma trận khuyết thiếu 150 quan sát x Biến
+│   │   ├── missing_matrix.png                # Ma trận khuyết thiếu 160 quan sát x Biến
 │   │   └── internet_vs_unemployment_trends.png # Biểu đồ chuỗi thời gian Internet & Thất nghiệp
 │   └── tables/                        # Báo cáo kiểm toán dữ liệu và thống kê mô tả
 │       ├── cleaning_audit_report.csv  # Báo cáo đối chiếu trước và sau khi làm sạch (Before vs After)
@@ -51,18 +67,7 @@ DTA301/
 │       ├── outliers_jumps.csv         # Danh sách bất thường bước nhảy hàng năm (|Delta| > 3*std)
 │       ├── summary_stats_overall.csv  # Thống kê mô tả tổng thể (mean, sd, min, max, p25, median, p75, skew)
 │       └── summary_stats_by_country.csv # Thống kê mô tả theo từng nước ASEAN
-├── src/                               # Mã nguồn module hóa
-│   ├── __init__.py
-│   ├── config.py                      # Cấu hình danh mục chỉ số, nhóm biến, quốc gia, nhãn Stata
-│   ├── utils.py                       # Logger UTF-8, HTTP retry session với exponential backoff
-│   ├── fetcher.py                     # Thu thập API World Bank v2, lưu raw CSV & metadata
-│   ├── cleaner.py                     # Lập dàn bảng panel, merge biến, xuất CSV long/wide và Stata
-│   ├── feature_engineering.py         # Tạo log, trễ L1/L2, sai phân diff, khoảng cách giới, biến giả
-│   ├── clean_for_modeling.py          # Module làm sạch chuyên sâu, nội suy chuỗi thời gian và winsorize
-│   └── quality_reporter.py            # Kiểm toán missing, outliers, complete cases và vẽ biểu đồ
 ├── data_dictionary.csv                # Từ điển dữ liệu toàn diện (60 biến)
-├── main.py                            # Tệp thực thi toàn bộ pipeline từ đầu đến cuối
-├── requirements.txt                   # Danh sách thư viện phụ thuộc
 ├── REFERENCES.md                      # Danh mục tài liệu tham khảo, bài báo khoa học và link báo cáo
 └── README.md                          # Tài liệu hướng dẫn sử dụng chi tiết
 ```
@@ -71,7 +76,7 @@ DTA301/
 
 ## 3. Hệ thống chỉ số nghiên cứu (World Bank WDI)
 
-Dự án thu thập **36 chỉ số gốc** được phân thành **6 nhóm logic** trong [`src/config.py`](file:///c:/Users/NGUYENLONG/Desktop/DTA301/src/config.py):
+Dự án thu thập **36 chỉ số gốc** được phân thành **6 nhóm logic** trong [`R/config.R`](file:///c:/Users/NGUYENLONG/Desktop/DTA301/R/config.R):
 
 ### Nhóm 1: Hạ tầng số (Digital Infrastructure)
 1. `IT.NET.USER.ZS` (`internet_users`): Tỷ lệ dân số dùng Internet (% dân số).
@@ -131,7 +136,7 @@ Theo yêu cầu phương pháp luận phân tích bảng:
    - `ln_pop`: $\ln(\text{pop\_total})$ kiểm soát quy mô nền kinh tế.
 2. **Biến trễ hạ tầng số (Lags L1 & L2):**
    - Việc đầu tư và mở rộng hạ tầng số (internet, băng rộng cố định, mạng di động) thường có độ trễ truyền dẫn (time-to-build & adoption lag) đối với thị trường lao động.
-   - Các biến trễ được tính toán theo từng quốc gia (`groupby('iso3')`):
+   - Các biến trễ được tính toán theo từng quốc gia (`group_by(iso3)`):
      - `lag1_internet_users`, `lag2_internet_users`
      - `lag1_fixed_broadband`, `lag2_fixed_broadband`
      - `lag1_mobile_cellular`, `lag2_mobile_cellular`
@@ -150,37 +155,42 @@ Theo yêu cầu phương pháp luận phân tích bảng:
 
 ---
 
-## 5. Hướng dẫn cài đặt và thực thi
+## 5. Hướng dẫn cài đặt và thực thi trong R
 
 ### Yêu cầu môi trường
-- Python 3.10 trở lên.
-- Các thư viện chuẩn trong [`requirements.txt`](file:///c:/Users/NGUYENLONG/Desktop/DTA301/requirements.txt):
-  ```bash
-  pip install -r requirements.txt
-  ```
+- Đã cài đặt **R** (phiên bản $\ge$ 4.0, khuyến nghị R 4.3 hoặc R 4.4 / 4.6).
+- Khuyến nghị sử dụng **RStudio Desktop** để quản lý dự án trực quan qua tệp `DTA301.Rproj`.
 
-### Chạy toàn bộ quy trình bằng một lệnh duy nhất
-Tại thư mục gốc của dự án, thực hiện lệnh:
-```bash
-python main.py
+### Cài đặt thư viện R
+Tại Terminal hoặc R Console, chạy kịch bản cài đặt tự động:
+```r
+Rscript install_packages.R
 ```
+*Các gói R được sử dụng: `jsonlite`, `readr`, `dplyr`, `tidyr`, `ggplot2`, `haven`, `writexl`, `openxlsx`, `scales`.*
 
-### Các bước mà `main.py` tự động thực hiện:
-1. **Kết nối World Bank API v2:** Gửi truy vấn HTTP có gắn cơ chế retry (exponential backoff) đối với từng chỉ số cho 10 nước ASEAN giai đoạn 2010–2025. Nếu chỉ số gặp lỗi mạng, hệ thống ghi log cảnh báo và tiếp tục chạy mà không gián đoạn.
+### Thực thi toàn bộ quy trình bằng một lệnh duy nhất
+Tại thư mục gốc dự án:
+```bash
+Rscript main.R
+```
+*Hoặc trong RStudio:* Mở tệp `main.R` và nhấn nút **Source** (hoặc `Ctrl + Shift + Enter`).
+
+### Các bước mà `main.R` tự động thực hiện:
+1. **Kết nối World Bank API v2:** Gửi truy vấn HTTP có gắn cơ chế retry (exponential backoff) đối với từng chỉ số cho 10 nước ASEAN giai đoạn 2010–2025. Nếu API không khả dụng hoặc ngoại tuyến, hệ thống tự động ưu tiên nạp dữ liệu thô cục bộ để đảm bảo quy trình không gián đoạn.
 2. **Lưu dữ liệu thô (Raw Data):** Lưu 36 file CSV vào `data/raw/` cùng catalog `data/raw/metadata.csv` và sổ làm việc Excel `data/raw/asean_raw_data.xlsx`. Dữ liệu thô này được bảo toàn nguyên vẹn 100%.
-3. **Lập bảng Panel chuẩn (Base Panel):** Ghép 36 chỉ số vào khung bảng chuẩn 160 dòng (10 nước $\times$ 16 năm), giữ nguyên giá trị `NaN` (không tự ý nội suy trong bảng lưu trữ gốc). Xuất bảng long (`asean_panel.csv`), bảng wide (`asean_panel_wide.csv`) và bảng Stata (`asean_panel.dta`).
+3. **Lập bảng Panel chuẩn (Base Panel):** Ghép 36 chỉ số vào khung bảng chuẩn 160 dòng (10 nước $\times$ 16 năm), giữ nguyên giá trị `NA` (không tự ý nội suy trong bảng lưu trữ gốc). Xuất bảng long (`asean_panel.csv`), bảng wide (`asean_panel_wide.csv`) và bảng Stata (`asean_panel.dta`) có đầy đủ nhãn biến.
 4. **Tính toán biến phái sinh:** Tạo log, trễ L1/L2, sai phân, khoảng cách giới và biến giả trên dữ liệu gốc, xuất ra `asean_panel_derived.csv` và `asean_panel_derived.dta`.
 5. **Làm sạch dữ liệu chuyên dụng chạy mô hình (Clean Model-Ready Panel):**
    - Áp dụng nội suy tuyến tính chuỗi thời gian bên trong từng nước (`within-country linear interpolation` và `bfill/ffill`).
    - Xử lý các chuỗi thiếu toàn bộ của một nước (như dịch vụ ICT Việt Nam, độ mở thương mại Myanmar) bằng trung vị nhóm nước tương đồng.
    - Xử lý ngoại lai cực lớn bằng kỹ thuật Winsorization 1%-99% (`secure_servers_win`, `trade_openness_win`).
    - Tính toán đầy đủ trễ L1, L2 và sai phân trên chuỗi liên tục để **không bị mất quan sát do listwise deletion**.
-   - Xuất tệp mô hình hóa hoàn chỉnh 100% không còn NaN: `asean_panel_clean.csv` và `asean_panel_clean.dta`.
+   - Xuất tệp mô hình hóa hoàn chỉnh 100% không còn NA: `asean_panel_clean.csv` và `asean_panel_clean.dta`.
    - Xuất bảng kiểm toán đối chiếu: `outputs/tables/cleaning_audit_report.csv`.
 6. **Tạo Data Dictionary:** Biên soạn từ điển dữ liệu chuẩn hóa gồm 60 biến (`data_dictionary.csv`).
 7. **Kiểm toán chất lượng dữ liệu:**
    - Tính toán tỷ lệ khuyết thiếu theo quốc gia, biến, năm.
-   - Vẽ và lưu các biểu đồ nhiệt (Heatmap) vào `outputs/figures/`.
+   - Vẽ và lưu các biểu đồ nhiệt (Heatmap) chuẩn ggplot2 vào `outputs/figures/`.
    - Tính toán số quan sát đầy đủ (complete cases) theo từng nhóm biến.
    - Phát hiện ngoại lai bằng phương pháp Z-score ($|Z| > 3$) và bước nhảy chuỗi thời gian bất thường.
 8. **Thống kê mô tả:** Xuất bảng thống kê mô tả tổng thể và theo từng quốc gia vào `outputs/tables/`.
@@ -226,10 +236,10 @@ Theo báo cáo xuất ra tại `outputs/tables/`:
 2. **Lựa chọn biến độc lập chính (Core Explanatory Variables):**
    - `internet_users` hoặc `lag1_internet_users` (dùng trễ 1 năm để giảm thiểu vấn đề nội sinh do quan hệ nhân quả hai chiều - Reverse Causality).
    - `fixed_broadband` và `secure_servers` đại diện cho chiều sâu và chất lượng của hạ tầng công nghệ.
-3. **Mô hình kinh tế lượng đề xuất:**
-   - **Mô hình tác động cố định (Panel Fixed Effects - FE):** Triệt tiêu các yếu tố đặc thù bất biến theo thời gian của từng quốc gia (thể chế, địa lý, văn hóa).
-   - **Kiểm định Hausman Test:** Lựa chọn giữa FE và Random Effects (RE).
-   - **Kiểm soát cú sốc:** Đưa biến giả `covid` và xu hướng thời gian (`time fixed effects`) để tách biệt tác động của chu kỳ kinh tế toàn cầu.
+3. **Mô hình kinh tế lượng đề xuất trong R (`plm` package):**
+   - **Mô hình tác động cố định (Panel Fixed Effects - FE):** `plm(unemp_total ~ internet_users + ln_gdp_pc + trade_openness + fdi_net_inflows + covid, data = clean_panel, index = c("iso3", "year"), model = "within")`.
+   - **Kiểm định Hausman Test:** `phtest(fe_model, re_model)` để lựa chọn giữa FE và Random Effects (RE).
+   - **Kiểm soát cú sốc:** Đưa biến giả `covid` và hiệu ứng thời gian (`time fixed effects`) để tách biệt tác động của chu kỳ kinh tế toàn cầu.
 
 ---
 

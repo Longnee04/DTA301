@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",BRN,Brunei Darussalam,2010,0.356869132017561
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",BRN,Brunei Darussalam,2011,0.13791156316954
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",BRN,Brunei Darussalam,2012,0.111766261400307
@@ -73,12 +73,12 @@ FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2016,6.928825
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2017,4.5725365531752
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2018,6.87232865662935
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2019,8.82506696804558
-FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2020,
-FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2021,
-FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2022,
-FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2023,
-FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2024,
-FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2025,
+FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2020,NA
+FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2021,NA
+FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2022,NA
+FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2023,NA
+FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2024,NA
+FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MMR,Myanmar,2025,NA
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MYS,Malaysia,2010,1.62285235577035
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MYS,Malaysia,2011,3.1744709215131
 FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",MYS,Malaysia,2012,1.66357102479206

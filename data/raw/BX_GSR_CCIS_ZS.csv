@@ -1,9 +1,9 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2010,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2011,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2012,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2013,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2014,
+indicator_code,indicator_name,iso3,country,year,value
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2010,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2011,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2012,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2013,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2014,NA
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2015,0.0124597982674343
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2016,0.003013531741434
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",BRN,Brunei Darussalam,2017,0.00515406664658179
@@ -62,9 +62,9 @@ BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",LAO,Lao PDR,202
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",LAO,Lao PDR,2022,5.50544226613756
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",LAO,Lao PDR,2023,7.55797049542745
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",LAO,Lao PDR,2024,3.50871084727487
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",LAO,Lao PDR,2025,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2010,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2011,
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",LAO,Lao PDR,2025,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2010,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2011,NA
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2012,6.1488447961075
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2013,2.92085376777799
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2014,6.07246569800072
@@ -73,12 +73,12 @@ BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,201
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2017,2.95511296025311
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2018,1.41233157352121
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2019,2.24040290360038
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2020,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2021,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2022,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2023,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2024,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2025,
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2020,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2021,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2022,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2023,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2024,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MMR,Myanmar,2025,NA
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2010,6.14094909602239
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2011,6.23398361307006
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2012,7.2055140762429
@@ -94,7 +94,7 @@ BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,20
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2022,11.4134438785672
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2023,9.44804679894627
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2024,8.65874213939161
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2025,
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",MYS,Malaysia,2025,NA
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",PHL,Philippines,2010,12.5738256910915
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",PHL,Philippines,2011,14.665699489708
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",PHL,Philippines,2012,14.6932115146509
@@ -143,19 +143,19 @@ BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",THA,Thailand,20
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",THA,Thailand,2023,0.803052415181397
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",THA,Thailand,2024,0.72117334961778
 BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",THA,Thailand,2025,0.611120268848779
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2010,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2011,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2012,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2013,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2014,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2015,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2016,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2017,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2018,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2019,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2020,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2021,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2022,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2023,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2024,
-BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2025,
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2010,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2011,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2012,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2013,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2014,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2015,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2016,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2017,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2018,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2019,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2020,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2021,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2022,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2023,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2024,NA
+BX.GSR.CCIS.ZS,"ICT service exports (% of service exports, BoP)",VNM,Viet Nam,2025,NA

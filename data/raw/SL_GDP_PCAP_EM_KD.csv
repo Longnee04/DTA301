@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),BRN,Brunei Darussalam,2010,190650.107586153
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),BRN,Brunei Darussalam,2011,194086.989101633
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),BRN,Brunei Darussalam,2012,192560.031246208
@@ -78,7 +78,7 @@ SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MMR,Myanmar,2021
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MMR,Myanmar,2022,13279.6501822249
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MMR,Myanmar,2023,13270.6471501195
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MMR,Myanmar,2024,13019.135214853
-SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MMR,Myanmar,2025,12668.6831454874
+SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MMR,Myanmar,2025,12668.683145487401
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MYS,Malaysia,2010,54310.3178584915
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MYS,Malaysia,2011,55321.8431685699
 SL.GDP.PCAP.EM.KD,GDP per person employed (constant 2021 PPP $),MYS,Malaysia,2012,56100.2655690344

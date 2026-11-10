@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2010,0.41
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2011,0.35
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2012,0.28
@@ -14,7 +14,7 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Daruss
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2022,0.03
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2023,0.03
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2024,0.06
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),BRN,Brunei Darussalam,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2010,4.85
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2011,3.77
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2012,3.98
@@ -30,7 +30,7 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,202
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2022,2.56
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2023,2.92
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2024,2.66
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),IDN,Indonesia,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2010,0.09
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2011,0.05
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2012,0.25
@@ -46,10 +46,10 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2021
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2022,3.36
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2023,1.29
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2024,1.46
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),KHM,Cambodia,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2010,0.08
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2011,0.03
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2012,0.0
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2012,0
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2013,0.28
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2014,6.91
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2015,9.64
@@ -61,8 +61,8 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2020,
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2021,2.97
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2022,1.89
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2023,2.62
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2024,
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2024,NA
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),LAO,Lao PDR,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2010,0.02
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2011,0.03
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2012,0.01
@@ -78,7 +78,7 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2021,
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2022,0.17
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2023,0.68
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2024,0.97
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MMR,Myanmar,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2010,32.68
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2011,28.16
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2012,26.73
@@ -94,7 +94,7 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2021
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2022,32.75
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2023,34.53
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2024,35.21
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),MYS,Malaysia,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2010,22.46
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2011,18.03
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2012,25.89
@@ -103,14 +103,14 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2015,38.85
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2016,39.77
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2017,34.04
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2018,37.0
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2018,37
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2019,47.76
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2020,49.47
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2021,47.3
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2022,49.77
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2023,47.4
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2024,43.57
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),PHL,Philippines,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2010,33.56
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2011,27.73
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2012,27.46
@@ -126,7 +126,7 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,202
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2022,32.68
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2023,31.74
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2024,34.65
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),SGP,Singapore,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2010,18.8
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2011,15.47
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2012,15.97
@@ -142,7 +142,7 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2021
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2022,15.2
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2023,14.98
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2024,16.86
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),THA,Thailand,2025,NA
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2010,7.81
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2011,11.56
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2012,18.1
@@ -157,5 +157,5 @@ TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2020
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2021,36.57
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2022,35.95
 TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2023,35.9
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2024,
-TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2025,
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2024,NA
+TX.VAL.ICTG.ZS.UN,ICT goods exports (% of total goods exports),VNM,Viet Nam,2025,NA

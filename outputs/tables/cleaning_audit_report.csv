@@ -1,37 +1,37 @@
-﻿column_name,wdi_code,variable_group,missing_before,missing_after,clean_completeness_pct,cleaning_method
-internet_users,,,14,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-fixed_broadband,,,15,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-mobile_cellular,,,11,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-secure_servers,,,10,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-electricity_access,,,10,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-ict_goods_exp,,,12,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-ict_serv_exp,,,31,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước | Nội suy trung vị nhóm nước tương đồng (VNM)
-hightech_exp,,,19,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-unemp_total,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-unemp_total_nat,,,40,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-emp_rate_total,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-labor_force_part,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-unemp_youth,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-youth_neet,,,46,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-unemp_adv_edu,,,61,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-unemp_female,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-unemp_male,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_rate_female,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_rate_male,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-labor_force_part_fe,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_agriculture,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_industry,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_services,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_vulnerable,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_wage_salaried,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-emp_self,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-labor_productivity,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-gdp_pc_ppp,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-gdp_growth,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-trade_openness,,,25,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước | Nội suy trung vị nhóm nước tương đồng (MMR)
-fdi_net_inflows,,,4,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-urban_pop_rate,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-tertiary_edu_enr,,,34,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
-pop_total,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-pop_working_age,,,0,0,100.0,Dữ liệu gốc hoàn thiện 100% (không cần điền)
-inflation_cpi,,,6,0,100.0,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+column_name,wdi_code,variable_group,missing_before,missing_after,clean_completeness_pct,cleaning_method
+internet_users,IT.NET.USER.ZS,Hạ tầng số,14,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+fixed_broadband,IT.NET.BBND.P2,Hạ tầng số,15,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+mobile_cellular,IT.CEL.SETS.P2,Hạ tầng số,11,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+secure_servers,IT.NET.SECR.P6,Hạ tầng số,10,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+electricity_access,EG.ELC.ACCS.ZS,Hạ tầng số,10,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+ict_goods_exp,TX.VAL.ICTG.ZS.UN,Kinh tế số,12,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+ict_serv_exp,BX.GSR.CCIS.ZS,Kinh tế số,31,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước | Nội suy trung vị nhóm nước tương đồng (VNM)
+hightech_exp,TX.VAL.TECH.MF.ZS,Kinh tế số,19,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+unemp_total,SL.UEM.TOTL.ZS,Việc làm (Tổng),0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+unemp_total_nat,SL.UEM.TOTL.NE.ZS,Việc làm (Tổng),40,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+emp_rate_total,SL.EMP.TOTL.SP.ZS,Việc làm (Tổng),0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+labor_force_part,SL.TLF.CACT.ZS,Việc làm (Tổng),0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+unemp_youth,SL.UEM.1524.ZS,Việc làm (Tổng),0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+youth_neet,SL.UEM.NEET.ZS,Việc làm (Tổng),46,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+unemp_adv_edu,SL.UEM.ADVN.ZS,Việc làm (Tổng),61,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+unemp_female,SL.UEM.TOTL.FE.ZS,Việc làm theo giới,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+unemp_male,SL.UEM.TOTL.MA.ZS,Việc làm theo giới,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_rate_female,SL.EMP.TOTL.SP.FE.ZS,Việc làm theo giới,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_rate_male,SL.EMP.TOTL.SP.MA.ZS,Việc làm theo giới,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+labor_force_part_fe,SL.TLF.CACT.FE.ZS,Việc làm theo giới,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_agriculture,SL.AGR.EMPL.ZS,Cơ cấu và chất lượng việc làm,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_industry,SL.IND.EMPL.ZS,Cơ cấu và chất lượng việc làm,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_services,SL.SRV.EMPL.ZS,Cơ cấu và chất lượng việc làm,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_vulnerable,SL.EMP.VULN.ZS,Cơ cấu và chất lượng việc làm,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_wage_salaried,SL.EMP.WORK.ZS,Cơ cấu và chất lượng việc làm,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+emp_self,SL.EMP.SELF.ZS,Cơ cấu và chất lượng việc làm,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+labor_productivity,SL.GDP.PCAP.EM.KD,Cơ cấu và chất lượng việc làm,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+gdp_pc_ppp,NY.GDP.PCAP.PP.KD,Biến kiểm soát kinh tế vĩ mô & xã hội,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+gdp_growth,NY.GDP.MKTP.KD.ZG,Biến kiểm soát kinh tế vĩ mô & xã hội,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+trade_openness,NE.TRD.GNFS.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,25,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước | Nội suy trung vị nhóm nước tương đồng (MMR)
+fdi_net_inflows,BX.KLT.DINV.WD.GD.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,4,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+urban_pop_rate,SP.URB.TOTL.IN.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+tertiary_edu_enr,SE.TER.ENRR,Biến kiểm soát kinh tế vĩ mô & xã hội,34,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước
+pop_total,SP.POP.TOTL,Biến kiểm soát kinh tế vĩ mô & xã hội,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+pop_working_age,SP.POP.1564.TO.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,0,0,100,Dữ liệu gốc hoàn thiện 100% (không cần điền)
+inflation_cpi,FP.CPI.TOTL.ZG,Biến kiểm soát kinh tế vĩ mô & xã hội,6,0,100,Nội suy tuyến tính chuỗi thời gian & bfill/ffill theo từng nước

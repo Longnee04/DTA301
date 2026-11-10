@@ -1,7 +1,7 @@
-﻿column_name,wdi_code,variable_group,total_observations,missing_count,missing_rate_pct,available_count
+column_name,wdi_code,variable_group,total_observations,missing_count,missing_rate_pct,available_count
 unemp_adv_edu,SL.UEM.ADVN.ZS,Việc làm (Tổng),160,61,38.12,99
 youth_neet,SL.UEM.NEET.ZS,Việc làm (Tổng),160,46,28.75,114
-unemp_total_nat,SL.UEM.TOTL.NE.ZS,Việc làm (Tổng),160,40,25.0,120
+unemp_total_nat,SL.UEM.TOTL.NE.ZS,Việc làm (Tổng),160,40,25,120
 tertiary_edu_enr,SE.TER.ENRR,Biến kiểm soát kinh tế vĩ mô & xã hội,160,34,21.25,126
 ict_serv_exp,BX.GSR.CCIS.ZS,Kinh tế số,160,31,19.38,129
 trade_openness,NE.TRD.GNFS.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,160,25,15.62,135
@@ -14,24 +14,24 @@ electricity_access,EG.ELC.ACCS.ZS,Hạ tầng số,160,10,6.25,150
 secure_servers,IT.NET.SECR.P6,Hạ tầng số,160,10,6.25,150
 inflation_cpi,FP.CPI.TOTL.ZG,Biến kiểm soát kinh tế vĩ mô & xã hội,160,6,3.75,154
 fdi_net_inflows,BX.KLT.DINV.WD.GD.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,160,4,2.5,156
-emp_agriculture,SL.AGR.EMPL.ZS,Cơ cấu và chất lượng việc làm,160,0,0.0,160
-emp_industry,SL.IND.EMPL.ZS,Cơ cấu và chất lượng việc làm,160,0,0.0,160
-emp_rate_female,SL.EMP.TOTL.SP.FE.ZS,Việc làm theo giới,160,0,0.0,160
-emp_rate_male,SL.EMP.TOTL.SP.MA.ZS,Việc làm theo giới,160,0,0.0,160
-emp_rate_total,SL.EMP.TOTL.SP.ZS,Việc làm (Tổng),160,0,0.0,160
-emp_self,SL.EMP.SELF.ZS,Cơ cấu và chất lượng việc làm,160,0,0.0,160
-emp_services,SL.SRV.EMPL.ZS,Cơ cấu và chất lượng việc làm,160,0,0.0,160
-emp_vulnerable,SL.EMP.VULN.ZS,Cơ cấu và chất lượng việc làm,160,0,0.0,160
-emp_wage_salaried,SL.EMP.WORK.ZS,Cơ cấu và chất lượng việc làm,160,0,0.0,160
-gdp_growth,NY.GDP.MKTP.KD.ZG,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0.0,160
-gdp_pc_ppp,NY.GDP.PCAP.PP.KD,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0.0,160
-labor_force_part,SL.TLF.CACT.ZS,Việc làm (Tổng),160,0,0.0,160
-labor_force_part_fe,SL.TLF.CACT.FE.ZS,Việc làm theo giới,160,0,0.0,160
-labor_productivity,SL.GDP.PCAP.EM.KD,Cơ cấu và chất lượng việc làm,160,0,0.0,160
-pop_total,SP.POP.TOTL,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0.0,160
-pop_working_age,SP.POP.1564.TO.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0.0,160
-unemp_female,SL.UEM.TOTL.FE.ZS,Việc làm theo giới,160,0,0.0,160
-unemp_male,SL.UEM.TOTL.MA.ZS,Việc làm theo giới,160,0,0.0,160
-unemp_total,SL.UEM.TOTL.ZS,Việc làm (Tổng),160,0,0.0,160
-unemp_youth,SL.UEM.1524.ZS,Việc làm (Tổng),160,0,0.0,160
-urban_pop_rate,SP.URB.TOTL.IN.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0.0,160
+emp_agriculture,SL.AGR.EMPL.ZS,Cơ cấu và chất lượng việc làm,160,0,0,160
+emp_industry,SL.IND.EMPL.ZS,Cơ cấu và chất lượng việc làm,160,0,0,160
+emp_rate_female,SL.EMP.TOTL.SP.FE.ZS,Việc làm theo giới,160,0,0,160
+emp_rate_male,SL.EMP.TOTL.SP.MA.ZS,Việc làm theo giới,160,0,0,160
+emp_rate_total,SL.EMP.TOTL.SP.ZS,Việc làm (Tổng),160,0,0,160
+emp_self,SL.EMP.SELF.ZS,Cơ cấu và chất lượng việc làm,160,0,0,160
+emp_services,SL.SRV.EMPL.ZS,Cơ cấu và chất lượng việc làm,160,0,0,160
+emp_vulnerable,SL.EMP.VULN.ZS,Cơ cấu và chất lượng việc làm,160,0,0,160
+emp_wage_salaried,SL.EMP.WORK.ZS,Cơ cấu và chất lượng việc làm,160,0,0,160
+gdp_growth,NY.GDP.MKTP.KD.ZG,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0,160
+gdp_pc_ppp,NY.GDP.PCAP.PP.KD,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0,160
+labor_force_part,SL.TLF.CACT.ZS,Việc làm (Tổng),160,0,0,160
+labor_force_part_fe,SL.TLF.CACT.FE.ZS,Việc làm theo giới,160,0,0,160
+labor_productivity,SL.GDP.PCAP.EM.KD,Cơ cấu và chất lượng việc làm,160,0,0,160
+pop_total,SP.POP.TOTL,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0,160
+pop_working_age,SP.POP.1564.TO.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0,160
+unemp_female,SL.UEM.TOTL.FE.ZS,Việc làm theo giới,160,0,0,160
+unemp_male,SL.UEM.TOTL.MA.ZS,Việc làm theo giới,160,0,0,160
+unemp_total,SL.UEM.TOTL.ZS,Việc làm (Tổng),160,0,0,160
+unemp_youth,SL.UEM.1524.ZS,Việc làm (Tổng),160,0,0,160
+urban_pop_rate,SP.URB.TOTL.IN.ZS,Biến kiểm soát kinh tế vĩ mô & xã hội,160,0,0,160

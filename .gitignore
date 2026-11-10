@@ -14,6 +14,13 @@ venv/
 env/
 ENV/
 
+# R environment & local libraries
+.r_lib/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
 # IDE & Editor files
 .vscode/
 .idea/

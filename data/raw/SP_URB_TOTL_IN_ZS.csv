@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),BRN,Brunei Darussalam,2010,75.2506559029998
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),BRN,Brunei Darussalam,2011,75.312125504778
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),BRN,Brunei Darussalam,2012,75.2714233503027
@@ -111,22 +111,22 @@ SP.URB.TOTL.IN.ZS,Urban population (% of total population),PHL,Philippines,2022,
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),PHL,Philippines,2023,55.1242716168851
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),PHL,Philippines,2024,55.4520983215477
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),PHL,Philippines,2025,55.7732907605332
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2010,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2011,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2012,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2013,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2014,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2015,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2016,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2017,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2018,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2019,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2020,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2021,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2022,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2023,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2024,100.0
-SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2025,100.0
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2010,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2011,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2012,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2013,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2014,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2015,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2016,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2017,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2018,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2019,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2020,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2021,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2022,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2023,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2024,100
+SP.URB.TOTL.IN.ZS,Urban population (% of total population),SGP,Singapore,2025,100
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),THA,Thailand,2010,44.0018736622496
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),THA,Thailand,2011,44.8048723557374
 SP.URB.TOTL.IN.ZS,Urban population (% of total population),THA,Thailand,2012,45.373565813715

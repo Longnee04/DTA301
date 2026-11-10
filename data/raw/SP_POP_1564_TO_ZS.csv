@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),BRN,Brunei Darussalam,2010,71.2205479033064
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),BRN,Brunei Darussalam,2011,71.325789300393
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),BRN,Brunei Darussalam,2012,71.5334361550117
@@ -16,7 +16,7 @@ SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),BRN,Brunei Darus
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),BRN,Brunei Darussalam,2024,72.3068843786165
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),BRN,Brunei Darussalam,2025,72.1355347763014
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),IDN,Indonesia,2010,66.1962744759531
-SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),IDN,Indonesia,2011,66.3459439088059
+SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),IDN,Indonesia,2011,66.345943908805907
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),IDN,Indonesia,2012,66.4915446182363
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),IDN,Indonesia,2013,66.6471548360078
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),IDN,Indonesia,2014,66.8074162395304
@@ -77,7 +77,7 @@ SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MMR,Myanmar,2020
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MMR,Myanmar,2021,68.3772458748557
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MMR,Myanmar,2022,68.3947473609728
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MMR,Myanmar,2023,68.3951241366357
-SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MMR,Myanmar,2024,68.3950435972666
+SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MMR,Myanmar,2024,68.395043597266607
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MMR,Myanmar,2025,68.3991436163161
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MYS,Malaysia,2010,67.1104759628482
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),MYS,Malaysia,2011,67.5007412890436
@@ -120,7 +120,7 @@ SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,20
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2016,78.0308714909358
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2017,77.6111451686482
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2018,77.1869683023096
-SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2019,76.8118792234851
+SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2019,76.811879223485107
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2020,76.2405295018345
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2021,75.5729505669556
 SP.POP.1564.TO.ZS,Population ages 15-64 (% of total population),SGP,Singapore,2022,75.3038137328294

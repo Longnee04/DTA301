@@ -1,4 +1,4 @@
-﻿indicator_code,indicator_name,iso3,country,year,value
+indicator_code,indicator_name,iso3,country,year,value
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),BRN,Brunei Darussalam,2010,2.74136439456163
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),BRN,Brunei Darussalam,2011,3.74440625524871
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),BRN,Brunei Darussalam,2012,0.913135189664487
@@ -26,7 +26,7 @@ NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2017,5.06978590134916
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2018,5.17429153955024
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2019,5.01928768046282
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2020,-2.06551182934165
-NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2021,3.70288562827751
+NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2021,3.7028856282775102
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2022,5.30719722664799
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2023,5.04883117855516
 NY.GDP.MKTP.KD.ZG,GDP growth (annual %),IDN,Indonesia,2024,5.03257477088519
