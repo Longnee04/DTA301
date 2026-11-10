@@ -19,6 +19,7 @@ source("R/feature_engineering.R")
 source("R/clean_for_modeling.R")
 source("R/quality_reporter.R")
 source("R/export_raw_excel.R")
+source("R/export_clean_excel.R")
 
 logger <- setup_logger("main")
 
@@ -90,6 +91,14 @@ run_pipeline <- function() {
   logger$info(">>> STEP 7: Computing Descriptive Statistics (Overall & Country)...")
   summary_stats <- generate_descriptive_stats(derived_panel)
 
+  # Xuất bảng dữ liệu sạch và đối chiếu ra sổ làm việc Excel
+  tryCatch({
+    create_clean_excel()
+    logger$info(sprintf("Exported Clean Data to Excel: %s", OUT_EXCEL_CLEAN))
+  }, error = function(e) {
+    logger$warn(sprintf("Failed to export Clean Excel: %s", e$message))
+  })
+
   # ----------------------------------------------------
   # Tổng kết kết quả toàn bộ pipeline
   # ----------------------------------------------------
@@ -108,6 +117,7 @@ run_pipeline <- function() {
   cat(sprintf("4. Stata Format Dataset:     %s\n", ASEAN_PANEL_DTA_PATH))
   cat(sprintf("5. Derived Feature Panel:    %s (Shape: %d x %d)\n", ASEAN_PANEL_DERIVED_PATH, nrow(derived_panel), ncol(derived_panel)))
   cat(sprintf("6. Clean Model-Ready Panel:  %s (Shape: %d x %d, 100%% complete!)\n", ASEAN_PANEL_CLEAN_PATH, nrow(clean_panel), ncol(clean_panel)))
+  cat(sprintf("   - Clean Excel Workbook:   %s\n", OUT_EXCEL_CLEAN))
   cat(sprintf("   - Stata Model Dataset:    %s\n", ASEAN_PANEL_CLEAN_DTA_PATH))
   cat(sprintf("7. Data Dictionary:          %s (%d variables)\n", DATA_DICTIONARY_PATH, nrow(data_dict)))
   cat(sprintf("8. Audit Tables:             %s\n", OUTPUTS_TABLES_DIR))
