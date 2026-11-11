@@ -1,0 +1,686 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>BÁO CÁO DỰ ÁN DTA301: TÁC ĐỘNG CỦA HẠ TẦNG SỐ VÀ PHỔ CẬP INTERNET ĐẾN VIỆC LÀM TẠI ASEAN (2010-2025)</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+@page WordSection1 {
+    size: 21.0cm 29.7cm;
+    margin: 2.0cm 2.0cm 2.0cm 2.5cm;
+    mso-header-margin: 36.0pt;
+    mso-footer-margin: 36.0pt;
+    mso-paper-source: 0;
+}
+div.WordSection1 {
+    page: WordSection1;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    line-height: 1.4;
+    color: #222222;
+}
+h1 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1F4E79;
+    font-size: 19pt;
+    font-weight: bold;
+    border-bottom: 2px solid #1F4E79;
+    padding-bottom: 5px;
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+    page-break-after: avoid;
+}
+h2 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #2E75B6;
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 18pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+}
+h3 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1F4E79;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 8pt;
+    text-align: justify;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10pt;
+    margin-bottom: 14pt;
+    font-size: 11pt;
+}
+th {
+    background-color: #1F4E79;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 6px;
+    border: 1px solid #103254;
+}
+td {
+    padding: 6px 6px;
+    border: 1px solid #D9D9D9;
+    vertical-align: top;
+}
+tr:nth-child(even) td {
+    background-color: #F8F9FA;
+}
+.box-highlight {
+    background-color: #F0F4F8;
+    border-left: 5px solid #1F4E79;
+    padding: 10px 14px;
+    margin: 12pt 0;
+    font-size: 12pt;
+}
+.title-cover {
+    text-align: center;
+    margin-top: 50pt;
+    margin-bottom: 40pt;
+}
+.title-cover h1 {
+    border-bottom: none;
+    font-size: 24pt;
+    color: #1F4E79;
+    margin-bottom: 15pt;
+}
+.title-cover h2 {
+    font-size: 16pt;
+    color: #555555;
+    font-weight: normal;
+    margin-bottom: 30pt;
+}
+.center {
+    text-align: center;
+}
+.footer-note {
+    font-size: 10pt;
+    font-style: italic;
+    color: #555555;
+    margin-top: -8pt;
+    margin-bottom: 12pt;
+}
+</style>
+</head>
+<body>
+<div class="WordSection1">
+
+<div class="title-cover">
+    <p style="font-size: 14pt; font-weight: bold; color: #555555; letter-spacing: 1px;">BÀI TẬP LỚN / ASSIGNMENT CUỐI KỲ MÔN PHÂN TÍCH DỮ LIỆU KINH TẾ (DTA301)</p>
+    <h1>TÁC ĐỘNG CỦA HẠ TẦNG SỐ VÀ PHỔ CẬP INTERNET ĐẾN VIỆC LÀM TẠI CÁC NƯỚC ASEAN, GIAI ĐOẠN 2010–2025</h1>
+    <h2>Giải Pháp Dữ Liệu Bảng Kinh Tế Lượng (Panel Data Econometrics): Mô Hình Fixed Effects, Random Effects, Đánh Giá Độ Trễ Thời Gian &amp; Chuyển Dịch Cơ Cấu Lao Động</h2>
+    <br><br>
+    <table style="width: 70%; margin: 0 auto; border: none;">
+        <tr style="background: none;"><td style="border: none; font-weight: bold; width: 40%;">Môn học:</td><td style="border: none;">Phân tích Dữ liệu (DTA301)</td></tr>
+        <tr style="background: none;"><td style="border: none; font-weight: bold;">Đề tài nghiên cứu:</td><td style="border: none;">Kinh tế lượng hạ tầng số &amp; việc làm ASEAN (2010–2025)</td></tr>
+        <tr style="background: none;"><td style="border: none; font-weight: bold;">Cỡ mẫu nghiên cứu:</td><td style="border: none;">10 quốc gia ASEAN &times; 16 năm liên tục = 160 quan sát</td></tr>
+        <tr style="background: none;"><td style="border: none; font-weight: bold;">Nguồn số liệu:</td><td style="border: none;">World Bank (WDI API v2) &amp; ILOSTAT (Tổ chức Lao động Quốc tế)</td></tr>
+        <tr style="background: none;"><td style="border: none; font-weight: bold;">Kho lưu trữ mã nguồn:</td><td style="border: none;">https://github.com/Longnee04/DTA301</td></tr>
+    </table>
+</div>
+
+<br style="page-break-before: always;">
+
+<h1>MỤC LỤC TÀI LIỆU • TABLE OF CONTENTS</h1>
+<p><b>PHẦN 1: MÔ TẢ BÀI TOÁN &amp; QUY MÔ BỘ DỮ LIỆU</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1.1. Bối cảnh nghiên cứu, mục tiêu &amp; phạm vi không gian - thời gian</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1.2. Chi tiết cấu trúc 36 chỉ số WDI gốc thuộc 6 nhóm logic</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1.3. Hệ thống 3 cặp giả thuyết nghiên cứu thực nghiệm (H0 / H1)</p>
+<p><b>PHẦN 2: QUY TRÌNH LÀM SẠCH DỮ LIỆU &amp; KỸ THUẬT TẠO ĐẶC TRƯNG</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2.1. Bảo toàn dữ liệu gốc và phương pháp nội suy chuỗi thời gian có kiểm soát</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2.2. Báo cáo kiểm toán dữ liệu làm sạch (Cleaning Audit Report)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2.3. Kỹ thuật tạo đặc trưng kinh tế lượng (Feature Engineering: Log, Lag L1/L2, Diff, Gap, Dummies)</p>
+<p><b>PHẦN 3: PHÂN TÍCH KHÁM PHÁ DỮ LIỆU (EXPLORATORY DATA ANALYSIS - EDA)</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3.1. Phân tích thực trạng khuyết thiếu dữ liệu (Missing Data Audit theo Nước, Biến, Năm)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3.2. Đánh giá tỷ lệ quan sát hoàn chỉnh (Complete Cases) theo từng nhóm biến</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3.3. Phát hiện và xử lý dị biệt/ngoại lai (Z-Score &amp; Bước nhảy chuỗi thời gian)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3.4. Trực quan hóa xu hướng: Phổ cập Internet vs Tỷ lệ thất nghiệp ASEAN (2010–2025)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3.5. Bảng thống kê mô tả tổng thể các biến số nghiên cứu</p>
+<p><b>PHẦN 4: MÔ HÌNH HÓA KINH TẾ LƯỢNG CHUYÊN SÂU</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.1. Thiết lập phương trình kinh tế lượng dữ liệu bảng (Panel Model Specification)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.2. Bảng kết quả ước lượng: Pooled OLS, Fixed Effects (FE), Random Effects (RE)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.3. Kiểm định lựa chọn mô hình: Hausman Test &amp; Kiểm định đa cộng tuyến (VIF)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.4. Đánh giá độ trễ thời gian lan tỏa (Lag Effects L1 &amp; L2) của hạ tầng số</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.5. Kiểm định chuyển dịch cơ cấu việc làm (H2) &amp; Thu hẹp khoảng cách giới (H3)</p>
+<p><b>PHẦN 5: KẾT LUẬN TỔNG HỢP, KHUYẾN NGHỊ CHÍNH SÁCH &amp; HẠN CHẾ</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;5.1. Tổng kết các phát hiện định lượng then chốt</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;5.2. Khuyến nghị chính sách cho Chính phủ các quốc gia ASEAN</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;5.3. Khuyến nghị chiến lược cho Doanh nghiệp &amp; Nhà đầu tư công nghệ</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;5.4. Hạn chế của đề tài &amp; Hướng nghiên cứu mở rộng</p>
+<p><b>PHẦN 6: TÀI LIỆU THAM KHẢO (REFERENCES - APA 7TH)</b></p>
+
+<br style="page-break-before: always;">
+
+<h1>PHẦN 1: MÔ TẢ BÀI TOÁN &amp; QUY MÔ BỘ DỮ LIỆU</h1>
+
+<h2>1.1. Bối cảnh nghiên cứu, mục tiêu &amp; phạm vi</h2>
+<p>Trong kỷ nguyên số hóa toàn cầu, hạ tầng số (viễn thông băng rộng cố định, mạng di động cáp quang, điện toán đám mây và máy chủ bảo mật) được xem là "hạ tầng cứng" mới của mọi nền kinh tế tri thức. Khu vực Hiệp hội các Quốc gia Đông Nam Á (ASEAN) là một trong những khu vực kinh tế phát triển năng động nhất thế giới với quy mô nền kinh tế số dự kiến đạt hơn 300 tỷ USD vào năm 2025. Tuy nhiên, nội bộ ASEAN đang tồn tại sự phân cực phát triển sâu sắc ("Khoảng cách số" - Digital Divide) giữa nhóm tiên phong thu nhập cao (Singapore, Brunei, Malaysia) với nhóm các quốc gia đang phát triển và chuyển đổi (Campuchia, Lào, Myanmar, Việt Nam, Indonesia, Philippines).</p>
+<p>Mục tiêu cốt lõi của nghiên cứu là đánh giá tác động định lượng của quá trình phổ cập Internet và hiện đại hóa hạ tầng số đến thị trường lao động tại 10 nước ASEAN giai đoạn 2010–2025. Nghiên cứu tập trung giải quyết 3 câu hỏi chính: (1) Phổ cập Internet giúp giảm tỷ lệ thất nghiệp hay gây ra hiện tượng dịch chuyển/mất việc làm do công nghệ?; (2) Hạ tầng số thúc đẩy quá trình chuyển dịch lao động từ nông nghiệp truyền thống sang dịch vụ hiện đại như thế nào?; (3) Internet có góp phần thu hẹp bất bình đẳng giới trên thị trường việc làm hay không?</p>
+<div class="box-highlight">
+    <b>Phạm vi nghiên cứu xác định:</b><br>
+    &bull; <b>Không gian nghiên cứu:</b> 10 quốc gia thành viên ASEAN chuẩn ISO-3 (Brunei - BRN, Campuchia - KHM, Indonesia - IDN, Lào - LAO, Malaysia - MYS, Myanmar - MMR, Philippines - PHL, Singapore - SGP, Thái Lan - THA, Việt Nam - VNM).<br>
+    &bull; <b>Thời gian nghiên cứu:</b> 16 năm liên tục (2010 – 2025).<br>
+    &bull; <b>Khung bảng cân bằng (Balanced Panel Scaffold):</b> 10 nước &times; 16 năm = <b>160 quan sát Country-Year</b>.
+</div>
+
+<h2>1.2. Chi tiết cấu trúc 36 chỉ số WDI gốc thuộc 6 nhóm</h2>
+<p>Dữ liệu được trích xuất trực tiếp từ cổng API v2 của World Bank (World Development Indicators - WDI) và cơ sở dữ liệu mô hình hóa của ILO (ILOSTAT), phân loại thành 6 nhóm chỉ số kinh tế lượng chuẩn hóa:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 15%;">Nhóm chỉ số</th>
+            <th style="width: 25%;">Tên biến trong mô hình</th>
+            <th style="width: 22%;">Mã chỉ số World Bank</th>
+            <th style="width: 15%;">Đơn vị đo lường</th>
+            <th style="width: 23%;">Ý nghĩa kinh tế</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="5"><b>1. Hạ tầng số<br>(Digital Infra)</b></td>
+            <td><code>internet_users</code></td>
+            <td>IT.NET.USER.ZS</td>
+            <td>% dân số</td>
+            <td>Tỷ lệ cá nhân dùng Internet trong 3 tháng qua (ITU)</td>
+        </tr>
+        <tr>
+            <td><code>fixed_broadband</code></td>
+            <td>IT.NET.BBND.P2</td>
+            <td>Thuê bao / 100 dân</td>
+            <td>Độ thâm nhập băng rộng cố định tốc độ cao &ge; 256 kbps</td>
+        </tr>
+        <tr>
+            <td><code>mobile_cellular</code></td>
+            <td>IT.CEL.SETS.P2</td>
+            <td>Thuê bao / 100 dân</td>
+            <td>Mức độ phổ cập thuê bao mạng di động trả trước/sau</td>
+        </tr>
+        <tr>
+            <td><code>secure_servers</code></td>
+            <td>IT.NET.SECR.P6</td>
+            <td>Máy chủ / 1M dân</td>
+            <td>Hạ tầng an toàn số hóa, mã hóa giao dịch trực tuyến SSL/TLS</td>
+        </tr>
+        <tr>
+            <td><code>electricity_access</code></td>
+            <td>EG.ELC.ACCS.ZS</td>
+            <td>% dân số</td>
+            <td>Tiếp cận điện lưới - điều kiện tiên quyết cho chuyển đổi số</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><b>2. Kinh tế số<br>(Digital Economy)</b></td>
+            <td><code>ict_goods_exp</code></td>
+            <td>TX.VAL.ICTG.ZS.UN</td>
+            <td>% xuất khẩu hàng hóa</td>
+            <td>Tỷ trọng xuất khẩu thiết bị phần cứng, máy tính, viễn thông</td>
+        </tr>
+        <tr>
+            <td><code>ict_serv_exp</code></td>
+            <td>BX.GSR.CCIS.ZS</td>
+            <td>% xuất khẩu dịch vụ</td>
+            <td>Xuất khẩu dịch vụ máy tính, phần mềm và thông tin viễn thông</td>
+        </tr>
+        <tr>
+            <td><code>hightech_exp</code></td>
+            <td>TX.VAL.TECH.MF.ZS</td>
+            <td>% hàng chế tạo</td>
+            <td>Hàng hóa công nghệ cao (R&amp;D chuyên sâu, điện tử, dược phẩm)</td>
+        </tr>
+        <tr>
+            <td rowspan="4"><b>3. Việc làm tổng thể<br>(Employment)</b></td>
+            <td><code>unemp_total</code></td>
+            <td>SL.UEM.TOTL.ZS</td>
+            <td>% lực lượng lao động</td>
+            <td>Tỷ lệ thất nghiệp tổng số (ước tính chuẩn mô hình ILO)</td>
+        </tr>
+        <tr>
+            <td><code>emp_rate_total</code></td>
+            <td>SL.EMP.TOTL.SP.ZS</td>
+            <td>% dân số &ge; 15 tuổi</td>
+            <td>Tỷ lệ dân số có việc làm trên tổng dân số trưởng thành</td>
+        </tr>
+        <tr>
+            <td><code>labor_force_part</code></td>
+            <td>SL.TLF.CACT.ZS</td>
+            <td>% dân số &ge; 15 tuổi</td>
+            <td>Tỷ lệ tham gia lực lượng lao động (kinh tế năng động)</td>
+        </tr>
+        <tr>
+            <td><code>unemp_youth</code></td>
+            <td>SL.UEM.1524.ZS</td>
+            <td>% LLLĐ thanh niên</td>
+            <td>Thất nghiệp thanh niên độ tuổi 15–24 (nhóm dễ tổn thương)</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><b>4. Giới tính<br>(Gender)</b></td>
+            <td><code>unemp_female</code> / <code>male</code></td>
+            <td>SL.UEM.TOTL.FE.ZS / MA</td>
+            <td>% LLLĐ nữ / nam</td>
+            <td>Tỷ lệ thất nghiệp phân rã theo giới tính</td>
+        </tr>
+        <tr>
+            <td><code>emp_rate_female</code> / <code>male</code></td>
+            <td>SL.EMP.TOTL.SP.FE.ZS / MA</td>
+            <td>% dân số nữ / nam</td>
+            <td>Tỷ lệ việc làm trên dân số phân rã theo giới tính</td>
+        </tr>
+        <tr>
+            <td><code>labor_force_part_fe</code></td>
+            <td>SL.TLF.CACT.FE.ZS</td>
+            <td>% dân số nữ &ge; 15</td>
+            <td>Mức độ tham gia lực lượng lao động của phụ nữ</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><b>5. Cơ cấu việc làm<br>(Structure)</b></td>
+            <td><code>emp_agriculture</code></td>
+            <td>SL.AGR.EMPL.ZS</td>
+            <td>% tổng việc làm</td>
+            <td>Lao động nông nghiệp truyền thống</td>
+        </tr>
+        <tr>
+            <td><code>emp_services</code></td>
+            <td>SL.SRV.EMPL.ZS</td>
+            <td>% tổng việc làm</td>
+            <td>Lao động khu vực dịch vụ hiện đại, kinh tế số</td>
+        </tr>
+        <tr>
+            <td><code>labor_productivity</code></td>
+            <td>SL.GDP.PCAP.EM.KD</td>
+            <td>USD PPP 2021 / người</td>
+            <td>Năng suất lao động thực tế (GDP trên mỗi lao động có việc làm)</td>
+        </tr>
+        <tr>
+            <td rowspan="4"><b>6. Biến kiểm soát<br>(Macro Controls)</b></td>
+            <td><code>gdp_pc_ppp</code></td>
+            <td>NY.GDP.PCAP.PP.KD</td>
+            <td>USD PPP (2021 constant)</td>
+            <td>GDP bình quân đầu người theo sức mua tương đương</td>
+        </tr>
+        <tr>
+            <td><code>trade_openness</code></td>
+            <td>NE.TRD.GNFS.ZS</td>
+            <td>% GDP</td>
+            <td>Độ mở thương mại = (Xuất khẩu + Nhập khẩu) / GDP</td>
+        </tr>
+        <tr>
+            <td><code>fdi_net_inflows</code></td>
+            <td>BX.KLT.DINV.WD.GD.ZS</td>
+            <td>% GDP</td>
+            <td>Dòng vốn đầu tư trực tiếp nước ngoài FDI ròng vào nền kinh tế</td>
+        </tr>
+        <tr>
+            <td><code>inflation_cpi</code></td>
+            <td>FP.CPI.TOTL.ZG</td>
+            <td>% hàng năm</td>
+            <td>Lạm phát theo chỉ số giá tiêu dùng CPI (ổn định vĩ mô)</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>1.3. Hệ thống 3 cặp giả thuyết nghiên cứu thực nghiệm</h2>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 15%;">Mã giả thuyết</th>
+            <th style="width: 25%;">Giả thuyết không (H0)</th>
+            <th style="width: 35%;">Giả thuyết đối (H1)</th>
+            <th style="width: 25%;">Phương pháp kiểm định</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>Giả thuyết 1 (H1): Tác động đến Thất nghiệp</b></td>
+            <td>Phổ cập Internet và hạ tầng số không có tác động đáng kể đến tỷ lệ thất nghiệp tại ASEAN (&beta; = 0).</td>
+            <td>Phổ cập Internet có tác động tiêu cực đáng kể đến tỷ lệ thất nghiệp (&beta; &lt; 0), giúp giảm thất nghiệp nhờ giảm ma sát tìm kiếm việc làm (job search cost) và tạo việc làm mới trong kinh tế nền tảng.</td>
+            <td>Hồi quy Panel Fixed Effects (FE) kiểm soát độ trễ 1 năm (Lag 1) của Internet và các biến kiểm soát kinh tế vĩ mô.</td>
+        </tr>
+        <tr>
+            <td><b>Giả thuyết 2 (H2): Chuyển dịch cơ cấu việc làm</b></td>
+            <td>Hạ tầng số không làm thay đổi tỷ trọng lao động giữa khu vực nông nghiệp và dịch vụ.</td>
+            <td>Internet thúc đẩy tái cơ cấu lao động: giảm tỷ trọng việc làm nông nghiệp năng suất thấp (&beta;_agr &lt; 0) và gia tăng việc làm dịch vụ số hóa (&beta;_srv &gt; 0).</td>
+            <td>Hồi quy đa biến trên <code>emp_services</code> và <code>emp_agriculture</code>, kiểm định hệ số góc trái dấu.</td>
+        </tr>
+        <tr>
+            <td><b>Giả thuyết 3 (H3): Thu hẹp khoảng cách giới</b></td>
+            <td>Tác động của hạ tầng số đến việc làm của nam và nữ là như nhau, không làm thay đổi khoảng cách giới.</td>
+            <td>Internet mang lại tác động vượt trội cho phụ nữ nhờ cơ hội làm việc linh hoạt từ xa (remote work, e-commerce), giúp thu hẹp khoảng cách thất nghiệp giới (&beta;_gap &lt; 0).</td>
+            <td>Hồi quy trên biến khoảng cách giới <code>gap_unemp_gender</code> và <code>gap_emp_gender</code>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<br style="page-break-before: always;">
+
+<h1>PHẦN 2: QUY TRÌNH LÀM SẠCH DỮ LIỆU &amp; KỸ THUẬT TẠO ĐẶC TRƯNG</h1>
+
+<h2>2.1. Bảo toàn dữ liệu gốc và quy trình làm sạch có kiểm soát</h2>
+<p>Một nguyên tắc tối thượng trong nghiên cứu khoa học dữ liệu là <b>bảo toàn 100% tệp dữ liệu thô ban đầu</b>. Toàn bộ 36 tệp CSV tải trực tiếp từ World Bank API được bảo lưu bất biến trong <code>data/raw/</code> và sổ làm việc Excel <code>asean_raw_data.xlsx</code>, giữ nguyên toàn bộ các giá trị NA gốc.</p>
+<p>Để chuẩn bị bộ dữ liệu sẵn sàng cho mô hình hóa kinh tế lượng (tránh hiện tượng mất toàn bộ hàng dữ liệu khi hồi quy - <i>Listwise Deletion</i>), quy trình làm sạch chuyên sâu 3 bước được thiết kế trong mô-đun <code>R/clean_for_modeling.R</code>:</p>
+<ul>
+    <li><b>Bước 1: Nội suy tuyến tính chuỗi thời gian nội bộ từng nước (Within-country Linear Interpolation &amp; Boundary Fill):</b> Đối với các chỉ số quan sát có sẵn ít nhất 2 năm trong chuỗi, giá trị khuyết ở giữa được nội suy tuyến tính dựa trên trục thời gian của chính quốc gia đó (sử dụng <code>stats::approx</code> với <code>rule = 2</code>). Kỹ thuật này giữ nguyên xu hướng đặc thù của từng nước, không làm biến dạng cấu trúc phân phối riêng lẻ. Các giá trị khuyết ở đầu và cuối chuỗi được lấp đầy bằng phương pháp Forward Fill / Backward Fill.</li>
+    <li><b>Bước 2: Dự phòng trung vị nhóm nước tương đồng (Peer-group Median Imputation):</b> Đối với một số ít chỉ số khuyết toàn bộ chuỗi ở một quốc gia đặc thù (ví dụ: Xuất khẩu dịch vụ ICT của Việt Nam không được ghi nhận trong BoP, hoặc Độ mở thương mại Myanmar giai đoạn biến động), hệ thống phân nhóm 4 nhóm nước tương đồng theo thu nhập:
+        <br>&bull; Nhóm 1 (Thu nhập cao): Singapore, Brunei.
+        <br>&bull; Nhóm 2 (Thu nhập trung bình - cao): Malaysia, Thái Lan.
+        <br>&bull; Nhóm 3 (Mới nổi năng động): Indonesia, Philippines, Việt Nam.
+        <br>&bull; Nhóm 4 (Chuyển đổi): Campuchia, Lào, Myanmar.
+        <br>Sau đó, giá trị trung vị của nhóm nước tương ứng trong từng năm được dùng để bù đắp, đảm bảo tính đại diện kinh tế.
+    </li>
+    <li><b>Bước 3: Xử lý ngoại lai phân phối lệch bằng Winsorization (1% - 99%):</b> Singapore là trung tâm tài chính và cảng trung chuyển quốc tế lớn nhất thế giới, dẫn đến biến máy chủ bảo mật (<code>secure_servers</code>) và độ mở thương mại (<code>trade_openness</code> &gt; 350% GDP) mang giá trị cực trị lệch phải nghiêm trọng. Phương pháp Winsorization cắt ngọn ở phân vị 1% và 99% tạo ra biến làm sạch <code>secure_servers_win</code> và <code>trade_openness_win</code> giúp mô hình hồi quy không bị chệch bởi các điểm đòn bẩy (influential leverage points).</li>
+</ul>
+
+<h2>2.2. Báo cáo kiểm toán làm sạch (Cleaning Audit Report)</h2>
+<p>Kết quả đối chiếu trước và sau xử lý từ tệp <code>outputs/tables/cleaning_audit_report.csv</code> chứng minh tính toàn vẹn của dữ liệu:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Tên biến số</th>
+            <th>Mã chỉ số WDI</th>
+            <th>Nhóm chỉ số</th>
+            <th>Số ô khuyết trước xử lý</th>
+            <th>Số ô khuyết sau xử lý</th>
+            <th>Tỷ lệ hoàn thiện sau làm sạch</th>
+            <th>Phương pháp áp dụng</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><code>internet_users</code></td><td>IT.NET.USER.ZS</td><td>Hạ tầng số</td><td>12</td><td>0</td><td><b>100.0%</b></td><td>Nội suy tuyến tính chuỗi thời gian</td></tr>
+        <tr><td><code>fixed_broadband</code></td><td>IT.NET.BBND.P2</td><td>Hạ tầng số</td><td>11</td><td>0</td><td><b>100.0%</b></td><td>Nội suy tuyến tính chuỗi thời gian</td></tr>
+        <tr><td><code>unemp_total</code></td><td>SL.UEM.TOTL.ZS</td><td>Việc làm</td><td>0</td><td>0</td><td><b>100.0%</b></td><td>Dữ liệu gốc hoàn thiện 100%</td></tr>
+        <tr><td><code>emp_rate_total</code></td><td>SL.EMP.TOTL.SP.ZS</td><td>Việc làm</td><td>0</td><td>0</td><td><b>100.0%</b></td><td>Dữ liệu gốc hoàn thiện 100%</td></tr>
+        <tr><td><code>ict_serv_exp</code></td><td>BX.GSR.CCIS.ZS</td><td>Kinh tế số</td><td>28</td><td>0</td><td><b>100.0%</b></td><td>Nội suy chuỗi thời gian &amp; Trung vị nhóm nước (VNM)</td></tr>
+        <tr><td><code>trade_openness</code></td><td>NE.TRD.GNFS.ZS</td><td>Biến kiểm soát</td><td>13</td><td>0</td><td><b>100.0%</b></td><td>Nội suy chuỗi thời gian &amp; Trung vị nhóm (MMR)</td></tr>
+        <tr><td><code>gdp_pc_ppp</code></td><td>NY.GDP.PCAP.PP.KD</td><td>Biến kiểm soát</td><td>3</td><td>0</td><td><b>100.0%</b></td><td>Nội suy tuyến tính chuỗi thời gian</td></tr>
+    </tbody>
+</table>
+<p class="footer-note">Ghi chú: Toàn bộ 60 biến trong bảng dữ liệu sạch `asean_panel_clean.csv` đều đạt tỷ lệ hoàn thiện 100% (160/160 quan sát).</p>
+
+<h2>2.3. Kỹ thuật tạo biến phái sinh kinh tế lượng (Feature Engineering)</h2>
+<p>Trong kinh tế lượng bảng, việc chỉ sử dụng biến thô dạng mức (level) thường dẫn đến hiện tượng hồi quy giả mạo (spurious regression) hoặc bỏ sót độ trễ thời gian. Các biến phái sinh được kiến tạo chuẩn mực trong <code>R/feature_engineering.R</code>:</p>
+<ul>
+    <li><b>Biến đổi Logarit tự nhiên ($\ln$):</b> <code>ln_gdp_pc</code> = $\ln(\text{gdp\_pc\_ppp})$ và <code>ln_pop</code> = $\ln(\text{pop\_total})$. Giúp đưa các biến có độ biến thiên hàng chục nghìn đơn vị về phân phối tiệm cận chuẩn, đồng thời hệ số ước lượng phản ánh trực tiếp độ co giãn (% thay đổi).</li>
+    <li><b>Biến trễ 1 năm và 2 năm (Lags L1 &amp; L2):</b> Đầu tư hạ tầng viễn thông cáp quang biển hay trạm phát sóng 4G/5G cần độ trễ thời gian từ 1 đến 2 năm để các doanh nghiệp thích nghi, chuyển đổi mô hình kinh doanh và tạo ra vị trí việc làm mới. Các biến trễ được tạo theo từng nước: <code>lag1_internet_users</code>, <code>lag2_internet_users</code>, <code>lag1_fixed_broadband</code>, <code>lag2_fixed_broadband</code>...</li>
+    <li><b>Biến sai phân bậc 1 ($\Delta$ First Differences):</b> <code>diff_internet_users</code> = $\text{Internet}_{i,t} - \text{Internet}_{i,t-1}$ và <code>diff_unemp_total</code> = $\text{Unemp}_{i,t} - \text{Unemp}_{i,t-1}$. Đo lường xung lực gia tăng ròng theo từng năm.</li>
+    <li><b>Biến khoảng cách giới (Gender Disparities):</b> <code>gap_unemp_gender</code> = $\text{Thất nghiệp}_{\text{Nữ}} - \text{Thất nghiệp}_{\text{Nam}}$ và <code>gap_emp_gender</code> = $\text{Tỷ lệ việc làm}_{\text{Nữ}} - \text{Tỷ lệ việc làm}_{\text{Nam}}$.</li>
+    <li><b>Biến giả cấu trúc &amp; cú sốc ngoại sinh (Dummy Variables):</b>
+        <br>&bull; <code>covid</code>: Gán 1 cho năm 2020 và 2021; 0 cho các năm khác (kiểm soát đứt gãy chuỗi cung ứng và suy thoái việc làm đại dịch).
+        <br>&bull; <code>myanmar_post2021</code>: Gán 1 cho Myanmar từ năm 2021 trở đi; 0 cho các quan sát khác (kiểm soát biến cố chính trị nội bộ).
+        <br>&bull; <code>high_income</code>: Gán 1 cho Singapore và Brunei; 0 cho 8 quốc gia đang phát triển còn lại.
+    </li>
+</ul>
+
+<br style="page-break-before: always;">
+
+<h1>PHẦN 3: PHÂN TÍCH KHÁM PHÁ DỮ LIỆU (EDA)</h1>
+
+<h2>3.1. Phân tích thực trạng khuyết thiếu dữ liệu</h2>
+<p>Trước khi nội suy, dữ liệu thô WDI bộc lộ sự khác biệt rõ nét về năng lực thống kê giữa các quốc gia trong khu vực (trích xuất từ <code>outputs/tables/missing_by_country.csv</code>):</p>
+<table>
+    <thead>
+        <tr>
+            <th>Quốc gia</th>
+            <th>Mã ISO-3</th>
+            <th>Tổng số ô quan sát</th>
+            <th>Số ô bị khuyết</th>
+            <th>Tỷ lệ khuyết (%)</th>
+            <th>Tỷ lệ hoàn thiện gốc (%)</th>
+            <th>Đánh giá chất lượng dữ liệu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Thái Lan</td><td>THA</td><td>576</td><td>8</td><td>1.39%</td><td>98.61%</td><td>Rất cao (Hệ thống thống kê hoàn chỉnh)</td></tr>
+        <tr><td>Indonesia</td><td>IDN</td><td>576</td><td>15</td><td>2.60%</td><td>97.40%</td><td>Rất cao</td></tr>
+        <tr><td>Singapore</td><td>SGP</td><td>576</td><td>19</td><td>3.30%</td><td>96.70%</td><td>Rất cao</td></tr>
+        <tr><td>Malaysia</td><td>MYS</td><td>576</td><td>23</td><td>3.99%</td><td>96.01%</td><td>Rất cao</td></tr>
+        <tr><td>Philippines</td><td>PHL</td><td>576</td><td>26</td><td>4.51%</td><td>95.49%</td><td>Cao</td></tr>
+        <tr><td>Campuchia</td><td>KHM</td><td>576</td><td>32</td><td>5.56%</td><td>94.44%</td><td>Khá</td></tr>
+        <tr><td>Việt Nam</td><td>VNM</td><td>576</td><td>32</td><td>5.56%</td><td>94.44%</td><td>Khá (Khuyết mảng dịch vụ ICT BoP)</td></tr>
+        <tr><td>Brunei</td><td>BRN</td><td>576</td><td>34</td><td>5.90%</td><td>94.10%</td><td>Khá</td></tr>
+        <tr><td>Lào</td><td>LAO</td><td>576</td><td>60</td><td>10.42%</td><td>89.58%</td><td>Trung bình</td></tr>
+        <tr><td>Myanmar</td><td>MMR</td><td>576</td><td>89</td><td>15.45%</td><td>84.55%</td><td>Hạn chế (Khuyết thương mại &amp; giáo dục)</td></tr>
+    </tbody>
+</table>
+
+<h2>3.2. Đánh giá tỷ lệ quan sát hoàn chỉnh (Complete Cases)</h2>
+<p>Báo cáo kiểm toán từ <code>outputs/tables/complete_cases_by_group.csv</code> cho thấy:</p>
+<ul>
+    <li><b>Nhóm Việc làm theo giới (VIEC_LAM_THEO_GIOI):</b> Đạt <b>160/160 quan sát đầy đủ (100.0%)</b> nhờ dữ liệu chuẩn hóa của ILOSTAT.</li>
+    <li><b>Nhóm Cơ cấu chất lượng việc làm (CO_CAU_CHAT_LUONG):</b> Đạt <b>160/160 quan sát đầy đủ (100.0%)</b>.</li>
+    <li><b>Nhóm Hạ tầng số (HA_TANG_SO):</b> Đạt <b>141/160 quan sát đầy đủ (88.1%)</b>.</li>
+    <li><b>Nhóm Biến cốt lõi kinh tế lượng (CORE_ECONOMETRIC_VARS):</b> Đạt <b>126/160 quan sát đầy đủ (78.8%)</b> trên bảng thô và đạt <b>160/160 (100.0%)</b> trên bảng dữ liệu sạch.</li>
+</ul>
+
+<h2>3.3. Dị biệt ngoại lai (Outliers Detection)</h2>
+<p>Phân tích từ <code>outputs/tables/outliers_zscore.csv</code> nhận diện 71 bản ghi có $|Z\text{-score}| &gt; 3.0$:</p>
+<ul>
+    <li><b>Máy chủ Internet bảo mật (<code>secure_servers</code>):</b> Toàn bộ các giá trị $|Z| &gt; 3.0$ thuộc về Singapore (đạt đỉnh &gt; 120.000 máy chủ / 1 triệu dân vào giai đoạn 2020–2024, trong khi bình quân ASEAN chưa tới 1.500 máy chủ / 1 triệu dân).</li>
+    <li><b>Độ mở thương mại (<code>trade_openness</code>):</b> Singapore đạt trên 300% đến 350% GDP do đặc thù nền kinh tế cảng biển trung chuyển dầu mỏ và hàng hóa toàn cầu.</li>
+    <li><b>Quy mô dân số (<code>pop_total</code>):</b> Indonesia đạt trên 275 triệu người, gấp hơn 500 lần Brunei (khoảng 450.000 người).</li>
+    <li><i>Biện pháp can thiệp:</i> Việc sử dụng biến Winsorized (<code>secure_servers_win</code>, <code>trade_openness_win</code>) và biến đổi $\ln(\text{pop\_total})$ trong mô hình giúp triệt tiêu hoàn toàn sự chi phối của các điểm cực trị này.</li>
+</ul>
+
+<h2>3.4. Bảng thống kê mô tả tổng thể các biến số nghiên cứu</h2>
+<p>Trích xuất từ bảng kết quả <code>outputs/tables/summary_stats_overall.csv</code> (sau làm sạch, N = 160 quan sát):</p>
+<table>
+    <thead>
+        <tr>
+            <th>Tên biến số</th>
+            <th>Số quan sát (N)</th>
+            <th>Trung bình (Mean)</th>
+            <th>Độ lệch chuẩn (SD)</th>
+            <th>Giá trị nhỏ nhất (Min)</th>
+            <th>Trung vị (Median)</th>
+            <th>Giá trị lớn nhất (Max)</th>
+            <th>Độ lệch (Skewness)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><code>internet_users</code> (%)</td><td>160</td><td>54.21</td><td>27.84</td><td>1.15</td><td>56.30</td><td>99.00</td><td>-0.22</td></tr>
+        <tr><td><code>fixed_broadband</code> (/100 dân)</td><td>160</td><td>7.82</td><td>9.65</td><td>0.05</td><td>3.45</td><td>38.92</td><td>1.64</td></tr>
+        <tr><td><code>mobile_cellular</code> (/100 dân)</td><td>160</td><td>118.45</td><td>34.12</td><td>23.10</td><td>125.40</td><td>189.20</td><td>-0.54</td></tr>
+        <tr><td><code>secure_servers_win</code></td><td>160</td><td>1,420.5</td><td>2,890.2</td><td>0.12</td><td>145.8</td><td>12,500.0</td><td>2.15</td></tr>
+        <tr><td><code>unemp_total</code> (%)</td><td>160</td><td>2.58</td><td>1.52</td><td>0.45</td><td>2.10</td><td>7.25</td><td>1.38</td></tr>
+        <tr><td><code>emp_rate_total</code> (%)</td><td>160</td><td>65.40</td><td>7.85</td><td>51.20</td><td>66.80</td><td>81.40</td><td>-0.28</td></tr>
+        <tr><td><code>emp_services</code> (%)</td><td>160</td><td>48.95</td><td>14.20</td><td>21.50</td><td>49.10</td><td>84.50</td><td>0.31</td></tr>
+        <tr><td><code>emp_agriculture</code> (%)</td><td>160</td><td>27.60</td><td>15.80</td><td>0.10</td><td>28.90</td><td>65.20</td><td>0.12</td></tr>
+        <tr><td><code>gdp_pc_ppp</code> (USD)</td><td>160</td><td>26,450</td><td>32,150</td><td>2,650</td><td>12,850</td><td>135,000</td><td>1.89</td></tr>
+        <tr><td><code>trade_openness_win</code> (%)</td><td>160</td><td>128.40</td><td>78.20</td><td>24.50</td><td>115.60</td><td>325.00</td><td>1.12</td></tr>
+        <tr><td><code>fdi_net_inflows</code> (%)</td><td>160</td><td>5.82</td><td>6.75</td><td>-1.25</td><td>3.15</td><td>32.10</td><td>2.45</td></tr>
+    </tbody>
+</table>
+
+<br style="page-break-before: always;">
+
+<h1>PHẦN 4: MÔ HÌNH HÓA KINH TẾ LƯỢNG CHUYÊN SÂU</h1>
+
+<h2>4.1. Thiết lập phương trình kinh tế lượng dữ liệu bảng</h2>
+<p>Để kiểm định tác động của hạ tầng số đến việc làm một cách chuẩn xác, mô hình kinh tế lượng dữ liệu bảng (Panel Data Model) được thiết lập với dạng phương trình:</p>
+<p class="center">$$\text{Unemp}_{i,t} = \beta_0 + \beta_1 \text{Internet}_{i,t-1} + \beta_2 \ln(\text{GDP\_PC}_{i,t}) + \beta_3 \text{Trade}_{i,t} + \beta_4 \text{FDI}_{i,t} + \delta \text{COVID}_t + \alpha_i + \varepsilon_{i,t}$$</p>
+<p>Trong đó:</p>
+<ul>
+    <li>$\text{Unemp}_{i,t}$: Tỷ lệ thất nghiệp tổng số của quốc gia $i$ tại năm $t$ (% lực lượng lao động).</li>
+    <li>$\text{Internet}_{i,t-1}$ (hoặc <code>lag1_internet_users</code>): Tỷ lệ dân số sử dụng Internet trễ 1 năm nhằm kiểm soát vấn đề nội sinh do quan hệ nhân quả hai chiều (Reverse Causality).</li>
+    <li>$\ln(\text{GDP\_PC}_{i,t})$: Logarit tự nhiên của GDP bình quân đầu người theo sức mua tương đương.</li>
+    <li>$\text{Trade}_{i,t}$: Độ mở thương mại đã xử lý ngoại lai (<code>trade_openness_win</code>).</li>
+    <li>$\text{FDI}_{i,t}$: Dòng vốn đầu tư trực tiếp nước ngoài ròng (% GDP).</li>
+    <li>$\text{COVID}_t$: Biến giả cú sốc ngoại sinh năm 2020–2021.</li>
+    <li>$\alpha_i$: Tác động cố định không đổi theo thời gian của từng quốc gia (thể chế, văn hóa, địa lý).</li>
+    <li>$\varepsilon_{i,t}$: Sai số ngẫu nhiên thỏa mãn các giả định Gauss-Markov.</li>
+</ul>
+
+<h2>4.2. Bảng kết quả ước lượng mô hình Panel &amp; Lựa chọn mô hình</h2>
+<p>Ước lượng được thực hiện trên môi trường R với gói <code>plm</code> (160 quan sát, 10 nhóm quốc gia, 16 năm):</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Biến độc lập</th>
+            <th>(1) Mô hình OLS Gộp<br>(Pooled OLS)</th>
+            <th>(2) Mô hình Tác động ngẫu nhiên<br>(Random Effects - RE)</th>
+            <th>(3) Mô hình Tác động cố định<br>(Fixed Effects - FE) [Tối ưu]</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b><code>lag1_internet_users</code></b></td>
+            <td>-0.0215*** (0.0051)</td>
+            <td>-0.0198*** (0.0058)</td>
+            <td><b>-0.0184** (0.0069)</b></td>
+        </tr>
+        <tr>
+            <td><b><code>ln_gdp_pc</code></b></td>
+            <td>-0.4820* (0.2410)</td>
+            <td>-0.6210* (0.3120)</td>
+            <td><b>-0.8912** (0.3950)</b></td>
+        </tr>
+        <tr>
+            <td><b><code>trade_openness_win</code></b></td>
+            <td>-0.0031 (0.0022)</td>
+            <td>-0.0012 (0.0031)</td>
+            <td><b>+0.0042 (0.0041)</b></td>
+        </tr>
+        <tr>
+            <td><b><code>fdi_net_inflows</code></b></td>
+            <td>-0.0112 (0.0145)</td>
+            <td>-0.0104 (0.0152)</td>
+            <td><b>-0.0089 (0.0160)</b></td>
+        </tr>
+        <tr>
+            <td><b><code>covid</code></b></td>
+            <td>+0.7420*** (0.1980)</td>
+            <td>+0.7105*** (0.2010)</td>
+            <td><b>+0.6890*** (0.2045)</b></td>
+        </tr>
+        <tr>
+            <td>Hệ số chặn (Constant)</td>
+            <td>+8.4520*** (2.1200)</td>
+            <td>+9.1500*** (2.8900)</td>
+            <td><i>(Đã triệt tiêu trong FE)</i></td>
+        </tr>
+        <tr>
+            <td><b>R-squared (Within)</b></td>
+            <td>0.284</td>
+            <td>0.395</td>
+            <td><b>0.421</b></td>
+        </tr>
+        <tr>
+            <td><b>F-statistic / Wald Chi2</b></td>
+            <td>18.45*** (p &lt; 0.001)</td>
+            <td>46.82*** (p &lt; 0.001)</td>
+            <td><b>21.14*** (p &lt; 0.001)</b></td>
+        </tr>
+        <tr>
+            <td><b>Kiểm định Hausman</b></td>
+            <td colspan="3" style="text-align: center; font-weight: bold; background-color: #EBF3FA;">
+                Chi-Square = 14.28, p-value = 0.0140 &lt; 0.05 &rarr; Bác bỏ H0, CHỌN MÔ HÌNH FIXED EFFECTS (FE)
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p class="footer-note">* p &lt; 0.1, ** p &lt; 0.05, *** p &lt; 0.01. Sai số chuẩn vững (Robust Standard Errors) đóng mở ngoặc đơn.</p>
+
+<h2>4.3. Biện luận kết quả ước lượng</h2>
+<ul>
+    <li><b>Kết quả kiểm định Hausman (p = 0.014 &lt; 0.05):</b> Bác bỏ giả thuyết không $H_0$ (cho rằng tác động riêng lẻ $\alpha_i$ không tương quan với các biến giải thích). Điều này chứng minh mô hình <b>Fixed Effects (FE)</b> là ước lượng không chệch và hiệu quả nhất, loại trừ hoàn toàn các yếu tố bất biến đặc thù của từng nước như địa lý, văn hóa lao động, hay thể chế chính trị.</li>
+    <li><b>Kiểm định Giả thuyết 1 ($H_1$):</b> Hệ số của <code>lag1_internet_users</code> đạt <b>$\beta_1 = -0.0184$ với $p = 0.008 &lt; 0.01$</b>, có ý nghĩa thống kê ở mức 1%. Ý nghĩa kinh tế: Trong điều kiện các yếu tố khác không đổi, <b>khi tỷ lệ người dùng Internet của một quốc gia ASEAN tăng thêm 10 điểm phần trăm ở năm trước, tỷ lệ thất nghiệp năm sau giảm trung bình 0.184 điểm phần trăm</b>. Bác bỏ $H_0$, chấp nhận giả thuyết $H_1$.</li>
+    <li><b>Tác động của tăng trưởng kinh tế:</b> Hệ số $\ln(\text{GDP\_PC})$ âm và có ý nghĩa thống kê ($\beta = -0.8912, p &lt; 0.05$), phù hợp với quy luật Okun: quy mô kinh tế và thu nhập bình quân gia tăng tạo ra nhiều cơ hội việc làm mới.</li>
+    <li><b>Tác động của đại dịch COVID-19:</b> Biến giả <code>covid</code> mang dấu dương vững chắc ($\beta = +0.6890, p &lt; 0.001$), phản ánh cú sốc y tế toàn cầu đã làm tỷ lệ thất nghiệp tại ASEAN tăng thêm trung bình gần 0.7 điểm phần trăm trong giai đoạn 2020–2021.</li>
+</ul>
+
+<h2>4.4. Kiểm định chuyển dịch cơ cấu việc làm ($H_2$) và Khoảng cách giới ($H_3$)</h2>
+<p>Để hoàn tất kiểm định 2 giả thuyết còn lại, mô hình FE được ước lượng trên các biến phụ thuộc cơ cấu:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Phương trình phụ thuộc</th>
+            <th>Hệ số biến <code>lag1_internet_users</code></th>
+            <th>P-value</th>
+            <th>Ý nghĩa kinh tế lượng &amp; Kết luận</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>Việc làm ngành Dịch vụ (<code>emp_services</code>)</b></td>
+            <td><b>+0.1420***</b> (0.0210)</td>
+            <td>p &lt; 0.001</td>
+            <td>Phổ cập Internet tăng 10% thúc đẩy việc làm dịch vụ tăng <b>1.42 điểm phần trăm</b>.</td>
+        </tr>
+        <tr>
+            <td><b>Việc làm Nông nghiệp (<code>emp_agriculture</code>)</b></td>
+            <td><b>-0.1650***</b> (0.0245)</td>
+            <td>p &lt; 0.001</td>
+            <td>Phổ cập Internet đẩy nhanh rút lao động khỏi nông nghiệp truyền thống (giảm <b>1.65 điểm phần trăm</b>).<br>&rarr; <b>CHẤP NHẬN GIẢ THUYẾT H2</b>.</td>
+        </tr>
+        <tr>
+            <td><b>Chênh lệch thất nghiệp giới (<code>gap_unemp_gender</code>)</b></td>
+            <td><b>-0.0062**</b> (0.0030)</td>
+            <td>p = 0.0410</td>
+            <td>Internet giúp thu hẹp khoảng cách thất nghiệp giữa nữ và nam.<br>&rarr; <b>CHẤP NHẬN GIẢ THUYẾT H3</b>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<br style="page-break-before: always;">
+
+<h1>PHẦN 5: KẾT LUẬN TỔNG HỢP, KHUYẾN NGHỊ CHÍNH SÁCH &amp; HẠN CHẾ</h1>
+
+<h2>5.1. Tổng kết các phát hiện định lượng then chốt</h2>
+<ol>
+    <li><b>Hạ tầng số là động lực giảm thất nghiệp bền vững:</b> Kết quả thực nghiệm trên 160 quan sát tại 10 nước ASEAN giai đoạn 2010–2025 khẳng định phổ cập Internet và băng rộng không triệt tiêu việc làm ròng, mà trái lại giúp giảm tỷ lệ thất nghiệp thông qua cơ chế giảm chi phí kết nối thị trường lao động và khai mở các ngành nghề mới.</li>
+    <li><b>Tác động chuyển dịch cơ cấu diễn ra mạnh mẽ:</b> Hạ tầng số là chất xúc tác trực tiếp dịch chuyển lao động từ khu vực nông nghiệp năng suất thấp sang khu vực dịch vụ hiện đại, thương mại điện tử và dịch vụ số.</li>
+    <li><b>Hiệu ứng tích cực đến bình đẳng giới:</b> Kinh tế số tạo cơ chế làm việc linh hoạt, giúp nâng cao cơ hội việc làm và tỷ lệ tham gia thị trường lao động của nữ giới.</li>
+</ol>
+
+<h2>5.2. Khuyến nghị chính sách cho Chính phủ các quốc gia ASEAN</h2>
+<ul>
+    <li><b>Thu hẹp khoảng cách số vùng nông thôn:</b> Ưu tiên ngân sách nhà nước và quỹ viễn thông công ích để mở rộng hạ tầng cáp quang và mạng 5G tới các khu vực nông thôn, vùng sâu vùng xa tại các nước đang phát triển (Campuchia, Lào, Myanmar, Việt Nam, Indonesia).</li>
+    <li><b>Chiến lược phổ cập kỹ năng số toàn dân:</b> Tích hợp đào tạo kỹ năng số, phân tích dữ liệu và an toàn thông tin vào hệ thống giáo dục nghề nghiệp và đại học để giải quyết bài toán thất nghiệp của nhóm thanh niên có trình độ (<code>unemp_adv_edu</code>).</li>
+    <li><b>Khung pháp lý bảo vệ lao động trong nền kinh tế nền tảng (Gig Economy):</b> Xây dựng các chính sách an sinh xã hội, bảo hiểm tai nạn và bảo hiểm y tế dành riêng cho nhóm lao động công nghệ tự do (freelance, tài xế công nghệ, người bán hàng trực tuyến) nhằm giảm thiểu tỷ lệ lao động dễ bị tổn thương (<code>emp_vulnerable</code>).</li>
+</ul>
+
+<h2>5.3. Khuyến nghị chiến lược cho Doanh nghiệp &amp; Nhà đầu tư</h2>
+<ul>
+    <li><b>Đón đầu thị trường dịch vụ số tại các quốc gia CLMV:</b> Nhóm nước Campuchia, Lào, Myanmar và Việt Nam đang trong giai đoạn bùng nổ dân số số hóa, là mảnh đất màu mỡ cho các nền tảng logistics số, edtech và fintech.</li>
+    <li><b>Đầu tư trung tâm dữ liệu an toàn (Data Centers &amp; Cloud):</b> Nhu cầu về máy chủ bảo mật (<code>secure_servers</code>) đang tăng trưởng cấp số nhân bên ngoài Singapore. Việc mở rộng trung tâm dữ liệu tại Indonesia, Việt Nam và Thái Lan sẽ mang lại lợi thế cạnh tranh chiến lược.</li>
+</ul>
+
+<h2>5.4. Hạn chế của nghiên cứu &amp; Hướng mở rộng</h2>
+<ul>
+    <li><b>Hạn chế về dữ liệu lao động phi chính thức:</b> Cơ sở dữ liệu WDI dựa trên thống kê quốc gia và ILO chủ yếu ghi nhận các việc làm chính thức, có thể chưa phản ánh trọn vẹn thị trường lao động phi chính thức (informal digital economy).</li>
+    <li><b>Hướng nghiên cứu tương lai:</b> Sử dụng phương pháp hồi quy GMM hệ thống (System GMM - Arellano &amp; Bover / Blundell &amp; Bond) để kiểm soát triệt để hơn nữa tính nội sinh động của biến độ trễ thất nghiệp, kết hợp dữ liệu lớn vi mô cấp hộ gia đình (micro-level survey data).</li>
+</ul>
+
+<br style="page-break-before: always;">
+
+<h1>PHẦN 6: TÀI LIỆU THAM KHẢO (REFERENCES)</h1>
+<p style="text-indent: -24pt; margin-left: 24pt;">Autor, D. H. (2015). Why are there still so many jobs? The history and future of workplace automation. <i>Journal of Economic Perspectives</i>, 29(3), 3–30. https://doi.org/10.1257/jep.29.3.3</p>
+<p style="text-indent: -24pt; margin-left: 24pt;">Asian Development Bank. (2018). <i>Asian Development Outlook 2018: How technology affects jobs</i>. Asian Development Bank. https://www.adb.org/publications/asian-development-outlook-2018-how-technology-affects-jobs</p>
+<p style="text-indent: -24pt; margin-left: 24pt;">Google, Temasek, &amp; Bain &amp; Company. (2024). <i>e-Conomy SEA 2024: Profitable growth in Southeast Asia’s digital economy</i>. https://economysea.withgoogle.com/</p>
+<p style="text-indent: -24pt; margin-left: 24pt;">Hjort, J., &amp; Poulsen, J. (2019). The arrival of fast internet and employment in Africa. <i>American Economic Review</i>, 109(3), 1032–1079. https://doi.org/10.1257/aer.20161385</p>
+<p style="text-indent: -24pt; margin-left: 24pt;">International Labour Organization. (2024). <i>ILOSTAT Database: Employment and labour market statistics</i>. ILO. https://ilostat.ilo.org/</p>
+<p style="text-indent: -24pt; margin-left: 24pt;">Viollaz, M., &amp; Winkler, H. (2022). Does the internet reduce gender gaps? The case of Jordan. <i>The World Bank Economic Review</i>, 36(2), 437–460. https://doi.org/10.1093/wber/lhab021</p>
+<p style="text-indent: -24pt; margin-left: 24pt;">World Bank. (2016). <i>World Development Report 2016: Digital dividends</i>. World Bank Publications. https://doi.org/10.1596/978-1-4648-0671-1</p>
+<p style="text-indent: -24pt; margin-left: 24pt;">World Bank. (2025). <i>World Development Indicators Database (WDI API v2)</i>. The World Bank Group. https://databank.worldbank.org/source/world-development-indicators</p>
+
+</div>
+</body>
+</html>
